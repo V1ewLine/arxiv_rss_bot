@@ -6,6 +6,7 @@
         "cs.LG"
     ],
     "keywords": [
+        "Linear Attention",
         "LLM",
         "RL",
         "RLHF",
