@@ -9,7 +9,7 @@ You can click this to deploy yours
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/maydomine/arxiv_rss_bot)
 ## 📊 Statistics
 
-- **Last Updated**: 2025-12-24 05:52:42 UTC
+- **Last Updated**: 2025-12-25 05:52:40 UTC
 - **Total Papers Found**: 30
 - **Categories Monitored**: cs.AI, cs.CL, cs.DC, cs.LG
 
@@ -19,7 +19,7 @@ You can click this to deploy yours
 
 **Authors**: Yuntao Dai, Hang Gu, Teng Wang, Qianyu Cheng, Yifei Zheng, Zhiyong Qiu, Lei Gong, Wenqi Lou, Xuehai Zhou  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 13.5  
 **Type**: new  
 **ArXiv ID**: 2512.20276v1  
@@ -29,67 +29,39 @@ Vision-Language-Action (VLA) models have emerged as a unified paradigm for robot
 
 ---
 
-### 2. [Multi-hop Reasoning via Early Knowledge Alignment](https://arxiv.org/abs/2512.20144)
+### 2. [Diving into 3D Parallelism with Heterogeneous Spot Instance GPUs: Design and Implications](https://arxiv.org/abs/2512.20953)
 
-**Authors**: Yuxin Wang, Shicheng Fang, Bo Wang, Qi Luo, Xuanjing Huang, Yining Zheng, Xipeng Qiu  
-**Category**: cs.CL  
-**Published**: 2025-12-24  
-**Score**: 12.5  
+**Authors**: Yuxiao Wang, Yuedong Xu, Qingyang Duan, Yuxuan Liu, Lei Jiao, Yinghao Yu, Jun Wu  
+**Category**: cs.DC  
+**Published**: 2025-12-25  
+**Score**: 12.0  
 **Type**: new  
-**ArXiv ID**: 2512.20144v1  
+**ArXiv ID**: 2512.20953v1  
 
 #### Abstract
-Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for Large Language Models (LLMs) to address knowledge-intensive queries requiring domain-specific or up-to-date information. To handle complex multi-hop questions that are challenging for single-step retrieval, iterative RAG app...
+The rapid growth of large language models (LLMs) and the continuous release of new GPU products have significantly increased the demand for distributed training across heterogeneous GPU environments. In this paper, we present a comprehensive analysis of the challenges involved in implementing 3D par...
 
 ---
 
-### 3. [MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts](https://arxiv.org/abs/2512.20604)
-
-**Authors**: Alexandros Christoforos, Chadbourne Davis  
-**Category**: cs.CL  
-**Published**: 2025-12-24  
-**Score**: 12.5  
-**Type**: new  
-**ArXiv ID**: 2512.20604v1  
-
-#### Abstract
-We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these ch...
-
----
-
-### 4. [Adaptive Financial Sentiment Analysis for NIFTY 50 via Instruction-Tuned LLMs , RAG and Reinforcement Learning Approaches](https://arxiv.org/abs/2512.20082)
+### 3. [Adaptive Financial Sentiment Analysis for NIFTY 50 via Instruction-Tuned LLMs , RAG and Reinforcement Learning Approaches](https://arxiv.org/abs/2512.20082)
 
 **Authors**: Chaithra, Kamesh Kadimisetty, Biju R Mohan  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 11.5  
 **Type**: new  
-**ArXiv ID**: 2512.20082v1  
+**ArXiv ID**: 2512.20082v2  
 
 #### Abstract
 Financial sentiment analysis plays a crucial role in informing investment decisions, assessing market risk, and predicting stock price trends. Existing works in financial sentiment analysis have not considered the impact of stock prices or market feedback on sentiment analysis. In this paper, we pro...
 
 ---
 
-### 5. [SHIRO: Near-Optimal Communication Strategies for Distributed Sparse Matrix Multiplication](https://arxiv.org/abs/2512.20178)
-
-**Authors**: Chen Zhuang, Lingqi Zhang, Benjamin Brock, Du Wu, Peng Chen, Toshio Endo, Satoshi Matsuoka, Mohamed Wahib  
-**Category**: cs.DC  
-**Published**: 2025-12-24  
-**Score**: 11.5  
-**Type**: new  
-**ArXiv ID**: 2512.20178v1  
-
-#### Abstract
-Distributed Sparse Matrix-Matrix Multiplication (SpMM) is a fundamental operation in numerous high-performance computing and deep learning applications. The major performance bottleneck in distributed SpMM lies in the substantial communication overhead, which limits both performance and scalability....
-
----
-
-### 6. [Scaling Reinforcement Learning for Content Moderation with Large Language Models](https://arxiv.org/abs/2512.20061)
+### 4. [Scaling Reinforcement Learning for Content Moderation with Large Language Models](https://arxiv.org/abs/2512.20061)
 
 **Authors**: Hamed Firooz, Rui Liu, Yuchen Lu, Zhenyu Hou, Fangzhou Xiong, Xiaoyang Zhang, Changshu Jian, Zhicheng Zhu, Jiayuan Ma, Jacob Tao, Chaitali Gupta, Xiaochang Peng, Shike Mei, Hang Cui, Yang Qin, Shuo Tang, Jason Gaedtke, Arpit Mittal  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 11.0  
 **Type**: new  
 **ArXiv ID**: 2512.20061v1  
@@ -99,101 +71,129 @@ Content moderation at scale remains one of the most pressing challenges in today
 
 ---
 
-### 7. [OpComm: A Reinforcement Learning Framework for Adaptive Buffer Control in Warehouse Volume Forecasting](https://arxiv.org/abs/2512.19738)
+### 5. [NVIDIA Nemotron 3: Efficient and Open Intelligence](https://arxiv.org/abs/2512.20856)
 
-**Authors**: Wilson Fung, Lu Guo, Drake Hilliard, Alessandro Casadei, Raj Ratan, Sreyoshi Bhaduri, Adi Surve, Nikhil Agarwal, Rohit Malshe, Pavan Mullapudi, Hungjen Wang, Saurabh Doodhwala, Ankush Pole, Arkajit Rakshit  
-**Category**: cs.LG  
-**Published**: 2025-12-24  
-**Score**: 11.0  
+**Authors**: NVIDIA,  :, Aaron Blakeman, Aaron Grattafiori, Aarti Basant, Abhibha Gupta, Abhinav Khattar, Adi Renduchintala, Aditya Vavre, Akanksha Shukla, Akhiad Bercovich, Aleksander Ficek, Aleksandr Shaposhnikov, Alex Kondratenko, Alexander Bukharin, Alexandre Milesi, Ali Taghibakhshi, Alisa Liu, Amelia Barton, Ameya Sunil Mahabaleshwarkar, Amir Klein, Amit Zuker, Amnon Geifman, Amy Shen, Anahita Bhiwandiwalla, Andrew Tao, Anjulie Agrusa, Ankur Verma, Ann Guan, Anubhav Mandarwal, Arham Mehta, Ashwath Aithal, Ashwin Poojary, Asif Ahamed, Asit Mishra, Asma Kuriparambil Thekkumpate, Ayush Dattagupta, Banghua Zhu, Bardiya Sadeghi, Barnaby Simkin, Ben Lanir, Benedikt Schifferer, Besmira Nushi, Bilal Kartal, Bita Darvish Rouhani, Boris Ginsburg, Brandon Norick, Brandon Soubasis, Branislav Kisacanin, Brian Yu, Bryan Catanzaro, Carlo del Mundo, Chantal Hwang, Charles Wang, Cheng-Ping Hsieh, Chenghao Zhang, Chenhan Yu, Chetan Mungekar, Chintan Patel, Chris Alexiuk, Christopher Parisien, Collin Neale, Cyril Meurillon, Damon Mosk-Aoyama, Dan Su, Dane Corneil, Daniel Afrimi, Daniel Lo, Daniel Rohrer, Daniel Serebrenik, Daria Gitman, Daria Levy, Darko Stosic, David Mosallanezhad, Deepak Narayanan, Dhruv Nathawani, Dima Rekesh, Dina Yared, Divyanshu Kakwani, Dong Ahn, Duncan Riach, Dusan Stosic, Edgar Minasyan, Edward Lin, Eileen Long, Eileen Peters Long, Elad Segal, Elena Lantz, Ellie Evans, Elliott Ning, Eric Chung, Eric Harper, Eric Tramel, Erick Galinkin, Erik Pounds, Evan Briones, Evelina Bakhturina, Evgeny Tsykunov, Faisal Ladhak, Fay Wang, Fei Jia, Felipe Soares, Feng Chen, Ferenc Galko, Frank Sun, Frankie Siino, Gal Hubara Agam, Ganesh Ajjanagadde, Gantavya Bhatt, Gargi Prasad, George Armstrong, Gerald Shen, Gorkem Batmaz, Grigor Nalbandyan, Haifeng Qian, Harsh Sharma, Hayley Ross, Helen Ngo, Herbert Hum, Herman Sahota, Hexin Wang, Himanshu Soni, Hiren Upadhyay, Huizi Mao, Huy C Nguyen, Huy Q Nguyen, Iain Cunningham, Ido Galil, Ido Shahaf, Igor Gitman, Ilya Loshchilov, Itamar Schen, Itay Levy, Ivan Moshkov, Izik Golan, Izzy Putterman, Jan Kautz, Jane Polak Scowcroft, Jared Casper, Jatin Mitra, Jeffrey Glick, Jenny Chen, Jesse Oliver, Jian Zhang, Jiaqi Zeng, Jie Lou, Jimmy Zhang, Jinhang Choi, Jining Huang, Joey Conway, Joey Guman, John Kamalu, Johnny Greco, Jonathan Cohen, Joseph Jennings, Joyjit Daw, Julien Veron Vialard, Junkeun Yi, Jupinder Parmar, Kai Xu, Kan Zhu, Kari Briski, Katherine Cheung, Katherine Luna, Keith Wyss, Keshav Santhanam, Kevin Shih, Kezhi Kong, Khushi Bhardwaj, Kirthi Shankar, Krishna C. Puvvada, Krzysztof Pawelec, Kumar Anik, Lawrence McAfee, Laya Sleiman, Leon Derczynski, Li Ding, Lizzie Wei, Lucas Liebenwein, Luis Vega, Maanu Grover, Maarten Van Segbroeck, Maer Rodrigues de Melo, Mahdi Nazemi, Makesh Narsimhan Sreedhar, Manoj Kilaru, Maor Ashkenazi, Marc Romeijn, Marcin Chochowski, Mark Cai, Markus Kliegl, Maryam Moosaei, Matt Kulka, Matvei Novikov, Mehrzad Samadi, Melissa Corpuz, Mengru Wang, Meredith Price, Michael Andersch, Michael Boone, Michael Evans, Miguel Martinez, Mikail Khona, Mike Chrzanowski, Minseok Lee, Mohammad Dabbah, Mohammad Shoeybi, Mostofa Patwary, Nabin Mulepati, Najeeb Nabwani, Natalie Hereth, Nave Assaf, Negar Habibi, Neta Zmora, Netanel Haber, Nicola Sessions, Nidhi Bhatia, Nikhil Jukar, Nikki Pope, Nikolai Ludwig, Nima Tajbakhsh, Nir Ailon, Nirmal Juluru, Nishant Sharma, Oleksii Hrinchuk, Oleksii Kuchaiev, Olivier Delalleau, Oluwatobi Olabiyi, Omer Ullman Argov, Omri Puny, Oren Tropp, Ouye Xie, Parth Chadha, Pasha Shamis, Paul Gibbons, Pavlo Molchanov, Pawel Morkisz, Peter Dykas, Peter Jin, Pinky Xu, Piotr Januszewski, Pranav Prashant Thombre, Prasoon Varshney, Pritam Gundecha, Przemek Tredak, Qing Miao, Qiyu Wan, Rabeeh Karimi Mahabadi, Rachit Garg, Ran El-Yaniv, Ran Zilberstein, Rasoul Shafipour, Rich Harang, Rick Izzo, Rima Shahbazyan, Rishabh Garg, Ritika Borkar, Ritu Gala, Riyad Islam, Robert Hesse, Roger Waleffe, Rohit Watve, Roi Koren, Ruoxi Zhang, Russell Hewett, Russell J. Hewett, Ryan Prenger, Ryan Timbrook, Sadegh Mahdavi, Sahil Modi, Samuel Kriman, Sangkug Lim, Sanjay Kariyappa, Sanjeev Satheesh, Saori Kaji, Satish Pasumarthi, Saurav Muralidharan, Sean Narentharen, Sean Narenthiran, Seonmyeong Bak, Sergey Kashirsky, Seth Poulos, Shahar Mor, Shanmugam Ramasamy, Shantanu Acharya, Shaona Ghosh, Sharath Turuvekere Sreenivas, Shelby Thomas, Shiqing Fan, Shreya Gopal, Shrimai Prabhumoye, Shubham Pachori, Shubham Toshniwal, Shuoyang Ding, Siddharth Singh, Simeng Sun, Smita Ithape, Somshubra Majumdar, Soumye Singhal, Stas Sergienko, Stefania Alborghetti, Stephen Ge, Sugam Dipak Devare, Sumeet Kumar Barua, Suseella Panguluri, Suyog Gupta, Sweta Priyadarshi, Syeda Nahida Akter, Tan Bui, Teodor-Dumitru Ene, Terry Kong, Thanh Do, Tijmen Blankevoort, Tim Moon, Tom Balough, Tomer Asida, Tomer Bar Natan, Tomer Ronen, Tugrul Konuk, Twinkle Vashishth, Udi Karpas, Ushnish De, Vahid Noorozi, Vahid Noroozi, Venkat Srinivasan, Venmugil Elango, Victor Cui, Vijay Korthikanti, Vinay Rao, Vitaly Kurin, Vitaly Lavrukhin, Vladimir Anisimov, Wanli Jiang, Wasi Uddin Ahmad, Wei Du, Wei Ping, Wenfei Zhou, Will Jennings, William Zhang, Wojciech Prazuch, Xiaowei Ren, Yashaswi Karnati, Yejin Choi, Yev Meyer, Yi-Fu Wu, Yian Zhang, Yigong Qin, Ying Lin, Yonatan Geifman, Yonggan Fu, Yoshi Subara, Yoshi Suhara, Yubo Gao, Zach Moshe, Zhen Dong, Zhongbo Zhu, Zihan Liu, Zijia Chen, Zijie Yan  
+**Category**: cs.CL  
+**Published**: 2025-12-25  
+**Score**: 10.5  
 **Type**: new  
-**ArXiv ID**: 2512.19738v1  
+**ArXiv ID**: 2512.20856v1  
 
 #### Abstract
-Accurate forecasting of package volumes at delivery stations is critical for last-mile logistics, where errors lead to inefficient resource allocation, higher costs, and delivery delays. We propose OpComm, a forecasting and decision-support framework that combines supervised learning with reinforcem...
+We introduce the Nemotron 3 family of models - Nano, Super, and Ultra. These models deliver strong agentic, reasoning, and conversational capabilities. The Nemotron 3 family uses a Mixture-of-Experts hybrid Mamba-Transformer architecture to provide best-in-class throughput and context lengths of up ...
 
 ---
 
-### 8. [MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization](https://arxiv.org/abs/2512.20135)
+### 6. [MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization](https://arxiv.org/abs/2512.20135)
 
-**Authors**: Zhuo Yang, Yeyun chen, Jiaqing Xie, Ben Gao, Shuaike Shen, Wanhao Liu, Liujia Yang, Beilun Wang, Tianfan Fu, Yuqiang Li  
+**Authors**: Zhuo Yang, Yeyun Chen, Jiaqing Xie, Ben Gao, Shuaike Shen, Wanhao Liu, Liujia Yang, Beilun Wang, Tianfan Fu, Yuqiang Li  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 10.0  
 **Type**: new  
-**ArXiv ID**: 2512.20135v1  
+**ArXiv ID**: 2512.20135v2  
 
 #### Abstract
 Molecular editing and optimization are multi-step problems that require iteratively improving properties while keeping molecules chemically valid and structurally similar. We frame both tasks as sequential, tool-guided decisions and introduce MolAct, an agentic reinforcement learning framework that ...
 
 ---
 
-### 9. [Resilient Packet Forwarding: A Reinforcement Learning Approach to Routing in Gaussian Interconnected Networks with Clustered Faults](https://arxiv.org/abs/2512.20394)
+### 7. [Generalised Linear Models in Deep Bayesian RL with Learnable Basis Functions](https://arxiv.org/abs/2512.20974)
 
-**Authors**: Mohammad Walid Charrwi, Zaid Hussain  
-**Category**: cs.DC  
-**Published**: 2025-12-24  
+**Authors**: Jingyang You, Hanna Kurniawati  
+**Category**: cs.LG  
+**Published**: 2025-12-25  
 **Score**: 10.0  
 **Type**: new  
-**ArXiv ID**: 2512.20394v1  
+**ArXiv ID**: 2512.20974v1  
 
 #### Abstract
-As Network-on-Chip (NoC) and Wireless Sensor Network architectures continue to scale, the topology of the underlying network becomes a critical factor in performance. Gaussian Interconnected Networks based on the arithmetic of Gaussian integers, offer attractive properties regarding diameter and sym...
+Bayesian Reinforcement Learning (BRL) provides a framework for generalisation of Reinforcement Learning (RL) problems from its use of Bayesian task parameters in the transition and reward models. However, classical BRL methods assume known forms of transition and reward models, reducing their applic...
 
 ---
 
-### 10. [Learning to Design City-scale Transit Routes](https://arxiv.org/abs/2512.19767)
+### 8. [SA-DiffuSeq: Addressing Computational and Scalability Challenges in Long-Document Generation with Sparse Attention](https://arxiv.org/abs/2512.20724)
 
-**Authors**: Bibek Poudel, Weizi Li  
-**Category**: cs.LG  
-**Published**: 2025-12-24  
-**Score**: 10.0  
-**Type**: new  
-**ArXiv ID**: 2512.19767v1  
-
-#### Abstract
-Designing efficient transit route networks is an NP-hard problem with exponentially large solution spaces that traditionally relies on manual planning processes. We present an end-to-end reinforcement learning (RL) framework based on graph attention networks for sequential transit network constructi...
-
----
-
-### 11. [EdgeFlex-Transformer: Transformer Inference for Edge Devices](https://arxiv.org/abs/2512.19741)
-
-**Authors**: Shoaib Mohammad, Guanqun Song, Ting Zhu  
-**Category**: cs.LG  
-**Published**: 2025-12-24  
+**Authors**: Alexandros Christoforos, Chadbourne Davis  
+**Category**: cs.CL  
+**Published**: 2025-12-25  
 **Score**: 9.5  
 **Type**: new  
-**ArXiv ID**: 2512.19741v1  
+**ArXiv ID**: 2512.20724v1  
 
 #### Abstract
-Deploying large-scale transformer models on edge devices presents significant challenges due to strict constraints on memory, compute, and latency. In this work, we propose a lightweight yet effective multi-stage optimization pipeline designed to compress and accelerate Vision Transformers (ViTs) fo...
+Diffusion based approaches to long form text generation suffer from prohibitive computational cost and memory overhead as sequence length increases. We introduce SA-DiffuSeq, a diffusion framework that integrates sparse attention to fundamentally improve scalability for long document modeling. By se...
 
 ---
 
-### 12. [FastMPS: Revisit Data Parallel in Large-scale Matrix Product State Sampling](https://arxiv.org/abs/2512.20064)
+### 9. [SHRP: Specialized Head Routing and Pruning for Efficient Encoder Compression](https://arxiv.org/abs/2512.20635)
 
-**Authors**: Yaojian Chen, Si-Qiu Gong, Lin Gan, Yanfei Liu, An Yang, Yinuo Wang, Chao-yang Lu, Guangwen Yang  
-**Category**: cs.DC  
-**Published**: 2025-12-24  
-**Score**: 9.0  
-**Type**: new  
-**ArXiv ID**: 2512.20064v1  
-
-#### Abstract
-Matrix Product State (MPS) is a versatile tensor network representation widely applied in quantum physics, quantum chemistry, and machine learning, etc. MPS sampling serves as a critical fundamental operation in these fields. As the problems become more complex, the scale of MPS is rapidly increasin...
-
----
-
-### 13. [Field-Space Attention for Structure-Preserving Earth System Transformers](https://arxiv.org/abs/2512.20350)
-
-**Authors**: Maximilian Witte, Johannes Meuer, \'Etienne Pl\'esiat, Christopher Kadow  
+**Authors**: Zeli Su, Ziyin Zhang, Wenzheng Zhang, Zhou Liu, Guixian Xu, Wentao Zhang  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
-**Score**: 9.0  
+**Published**: 2025-12-25  
+**Score**: 9.5  
 **Type**: new  
-**ArXiv ID**: 2512.20350v1  
+**ArXiv ID**: 2512.20635v1  
 
 #### Abstract
-Accurate and physically consistent modeling of Earth system dynamics requires machine-learning architectures that operate directly on continuous geophysical fields and preserve their underlying geometric structure. Here we introduce Field-Space attention, a mechanism for Earth system Transformers th...
+Transformer encoders are widely deployed in large-scale web services for natural language understanding tasks such as text classification, semantic retrieval, and content ranking. However, their high inference latency and memory consumption pose significant challenges for real-time serving and scala...
+
+---
+
+### 10. [Bridging Efficiency and Safety: Formal Verification of Neural Networks with Early Exits](https://arxiv.org/abs/2512.20755)
+
+**Authors**: Yizhak Yisrael Elboher, Avraham Raviv, Amihay Elboher, Zhouxing Shi, Omri Azencot, Hillel Kugler, Guy Katz  
+**Category**: cs.LG  
+**Published**: 2025-12-25  
+**Score**: 9.5  
+**Type**: new  
+**ArXiv ID**: 2512.20755v1  
+
+#### Abstract
+Ensuring the safety and efficiency of AI systems is a central goal of modern research. Formal verification provides guarantees of neural network robustness, while early exits improve inference efficiency by enabling intermediate predictions. Yet verifying networks with early exits introduces new cha...
+
+---
+
+### 11. [Neural Probe-Based Hallucination Detection for Large Language Models](https://arxiv.org/abs/2512.20949)
+
+**Authors**: Shize Liang, Hongzhi Wang  
+**Category**: cs.CL  
+**Published**: 2025-12-25  
+**Score**: 9.0  
+**Type**: new  
+**ArXiv ID**: 2512.20949v1  
+
+#### Abstract
+Large language models(LLMs) excel at text generation and knowledge question-answering tasks, but they are prone to generating hallucinated content, severely limiting their application in high-risk domains. Current hallucination detection methods based on uncertainty estimation and external knowledge...
+
+---
+
+### 12. [RevFFN: Memory-Efficient Full-Parameter Fine-Tuning of Mixture-of-Experts LLMs with Reversible Blocks](https://arxiv.org/abs/2512.20920)
+
+**Authors**: Ningyuan Liu, Jing Yang, Kaitong Cai, Keze Wang  
+**Category**: cs.LG  
+**Published**: 2025-12-25  
+**Score**: 9.0  
+**Type**: new  
+**ArXiv ID**: 2512.20920v1  
+
+#### Abstract
+Full parameter fine tuning is a key technique for adapting large language models (LLMs) to downstream tasks, but it incurs substantial memory overhead due to the need to cache extensive intermediate activations for backpropagation. This bottleneck makes full fine tuning of contemporary large scale L...
+
+---
+
+### 13. [ReACT-Drug: Reaction-Template Guided Reinforcement Learning for de novo Drug Design](https://arxiv.org/abs/2512.20958)
+
+**Authors**: R Yadunandan, Nimisha Ghosh  
+**Category**: cs.LG  
+**Published**: 2025-12-25  
+**Score**: 9.0  
+**Type**: new  
+**ArXiv ID**: 2512.20958v1  
+
+#### Abstract
+De novo drug design is a crucial component of modern drug development, yet navigating the vast chemical space to find synthetically accessible, high-affinity candidates remains a significant challenge. Reinforcement Learning (RL) enhances this process by enabling multi-objective optimization and exp...
 
 ---
 
@@ -201,7 +201,7 @@ Accurate and physically consistent modeling of Earth system dynamics requires ma
 
 **Authors**: Ze Gong, Pradeep Varakantham, Akshat Kumar  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 8.5  
 **Type**: new  
 **ArXiv ID**: 2512.20173v1  
@@ -211,59 +211,59 @@ Offline Preference-based Reinforcement Learning (PbRL) learns rewards and polici
 
 ---
 
-### 15. [An Adaptive Distributed Stencil Abstraction for GPUs](https://arxiv.org/abs/2512.19851)
+### 15. [SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation](https://arxiv.org/abs/2512.21204)
 
-**Authors**: Aditya Bhosale, Laxmikant Kale  
+**Authors**: Mahi Luthra, Jiayi Shen, Maxime Poli, Angelo Ortiz, Yosuke Higuchi, Youssef Benchekroun, Martin Gleize, Charles-Eric Saint-James, Dongyan Lin, Phillip Rust, Angel Villar, Surya Parimi, Vanessa Stark, Rashel Moritz, Juan Pino, Yann LeCun, Emmanuel Dupoux  
+**Category**: cs.CL  
+**Published**: 2025-12-25  
+**Score**: 8.0  
+**Type**: new  
+**ArXiv ID**: 2512.21204v1  
+
+#### Abstract
+Human infants, with only a few hundred hours of speech exposure, acquire basic units of new languages, highlighting a striking efficiency gap compared to the data-hungry self-supervised speech models. To address this gap, this paper introduces SpidR-Adapt for rapid adaptation to new languages using ...
+
+---
+
+### 16. [Mesh-Attention: A New Communication-Efficient Distributed Attention with Improved Data Locality](https://arxiv.org/abs/2512.20968)
+
+**Authors**: Sirui Chen, Jingji Chen, Siqi Zhu, Ziheng Jiang, Yanghua Peng, Xuehai Qian  
 **Category**: cs.DC  
-**Published**: 2025-12-24  
-**Score**: 8.5  
+**Published**: 2025-12-25  
+**Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2512.19851v1  
+**ArXiv ID**: 2512.20968v1  
 
 #### Abstract
-The scientific computing ecosystem in Python is largely confined to single-node parallelism, creating a gap between high-level prototyping in NumPy and high-performance execution on modern supercomputers. The increasing prevalence of hardware accelerators and the need for energy efficiency have made...
+Distributed attention is a fundamental problem for scaling context window for Large Language Models (LLMs). The state-of-the-art method, Ring-Attention, suffers from scalability limitations due to its excessive communication traffic. This paper proposes a new distributed attention algorithm, Mesh-At...
 
 ---
 
-### 16. [WOC: Dual-Path Weighted Object Consensus Made Efficient](https://arxiv.org/abs/2512.20485)
+### 17. [ESCHER: Efficient and Scalable Hypergraph Evolution Representation with Application to Triad Counting](https://arxiv.org/abs/2512.21009)
 
-**Authors**: Tanisha Fonseca, Gengrui Zhang  
+**Authors**: S. M. Shovan, Arindam Khanda, Sanjukta Bhowmick, Sajal K. Das  
 **Category**: cs.DC  
-**Published**: 2025-12-24  
-**Score**: 8.5  
+**Published**: 2025-12-25  
+**Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2512.20485v1  
+**ArXiv ID**: 2512.21009v1  
 
 #### Abstract
-Modern distributed systems face a critical challenge: existing consensus protocols optimize for either node heterogeneity or workload independence, but not both. For example, Cabinet leverages weighted quorums to handle node heterogeneity but serializes all operations through a global leader, limiti...
+Higher-order interactions beyond pairwise relationships in large complex networks are often modeled as hypergraphs. Analyzing hypergraph properties such as triad counts is essential, as hypergraphs can reveal intricate group interaction patterns that conventional graphs fail to capture. In real-worl...
 
 ---
 
-### 17. [Hard Negative Sample-Augmented DPO Post-Training for Small Language Models](https://arxiv.org/abs/2512.19728)
+### 18. [Data-Free Pruning of Self-Attention Layers in LLMs](https://arxiv.org/abs/2512.20636)
 
-**Authors**: Haocheng Lu, Minjun Zhu, Henry Yu  
+**Authors**: Dhananjay Saikumar, Blesson Varghese  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
-**Score**: 8.5  
+**Published**: 2025-12-25  
+**Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2512.19728v1  
+**ArXiv ID**: 2512.20636v1  
 
 #### Abstract
-Large language models (LLMs) continue to struggle with mathematical reasoning, and common post-training pipelines often reduce each generated solution to a binary outcome: correct or incorrect. This perspective is limiting in practice, as failures in chain-of-thought (CoT) reasoning are frequently s...
-
----
-
-### 18. [HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training](https://arxiv.org/abs/2512.20272)
-
-**Authors**: Yuanjian Xu, Yuan Shuai, Jianing Hao, Guang Zhang  
-**Category**: cs.LG  
-**Published**: 2025-12-24  
-**Score**: 8.5  
-**Type**: new  
-**ArXiv ID**: 2512.20272v1  
-
-#### Abstract
-Neural Stochastic Differential Equations (Neural SDEs) provide a principled framework for modeling continuous-time stochastic processes and have been widely adopted in fields ranging from physics to finance. Recent advances suggest that Generative Adversarial Networks (GANs) offer a promising soluti...
+Many self-attention sublayers in large language models (LLMs) can be removed with little to no loss. We attribute this to the Attention Suppression Hypothesis: during pre-training, some deep attention layers learn to mute their own contribution, leaving the residual stream and the MLP to carry the r...
 
 ---
 
@@ -271,7 +271,7 @@ Neural Stochastic Differential Equations (Neural SDEs) provide a principled fram
 
 **Authors**: Divya Vijay, Vignesh Ethiraj  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.5  
 **Type**: new  
 **ArXiv ID**: 2512.20275v1  
@@ -285,7 +285,7 @@ As networks evolve toward 5G Standalone and 6G, operators face orchestration cha
 
 **Authors**: Yaowei Bai, Ruiheng Zhang, Yu Lei, Xuhua Duan, Jingfeng Yao, Shuguang Ju, Chaoyang Wang, Wei Yao, Yiwan Guo, Guilin Zhang, Chao Wan, Qian Yuan, Lei Chen, Wenjuan Tang, Biqiang Zhu, Xinggang Wang, Tao Sun, Wei Zhou, Dacheng Tao, Yongchao Xu, Chuansheng Zheng, Huangxuan Zhao, Bo Du  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.5  
 **Type**: new  
 **ArXiv ID**: 2512.20344v1  
@@ -295,53 +295,39 @@ A global shortage of radiologists has been exacerbated by the significant volume
 
 ---
 
-### 21. [SpidR: Learning Fast and Stable Linguistic Units for Spoken Language Models Without Supervision](https://arxiv.org/abs/2512.20308)
+### 21. [Parallel Token Prediction for Language Models](https://arxiv.org/abs/2512.21323)
 
-**Authors**: Maxime Poli, Mahi Luthra, Youssef Benchekroun, Yosuke Higuchi, Martin Gleize, Jiayi Shen, Robin Algayres, Yu-An Chung, Mido Assran, Juan Pino, Emmanuel Dupoux  
+**Authors**: Felix Draxler, Justus Will, Farrin Marouf Sofian, Theofanis Karaletsos, Sameer Singh, Stephan Mandt  
 **Category**: cs.CL  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.5  
 **Type**: new  
-**ArXiv ID**: 2512.20308v1  
+**ArXiv ID**: 2512.21323v1  
 
 #### Abstract
-The parallel advances in language modeling and speech representation learning have raised the prospect of learning language directly from speech without textual intermediates. This requires extracting semantic representations directly from speech. Our contributions are threefold. First, we introduce...
+We propose Parallel Token Prediction (PTP), a universal framework for parallel sequence generation in language models. PTP jointly predicts multiple dependent tokens in a single transformer call by incorporating the sampling procedure into the model. This reduces the latency bottleneck of autoregres...
 
 ---
 
-### 22. [Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](https://arxiv.org/abs/2512.20578)
+### 22. [Transcriptome-Conditioned Personalized De Novo Drug Generation for AML Using Metaheuristic Assembly and Target-Driven Filtering](https://arxiv.org/abs/2512.21301)
 
-**Authors**: Amirhosein Ghasemabadi, Di Niu  
-**Category**: cs.CL  
-**Published**: 2025-12-24  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2512.20578v1  
-
-#### Abstract
-Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with tr...
-
----
-
-### 23. [Sample-Efficient Policy Constraint Offline Deep Reinforcement Learning based on Sample Filtering](https://arxiv.org/abs/2512.20115)
-
-**Authors**: Yuanhao Chen, Qi Liu, Pengbin Chen, Zhongjian Qiao, Yanjie Li  
+**Authors**: Abdullah G. Elafifi, Basma Mamdouh, Mariam Hanafy, Muhammed Alaa Eldin, Yosef Khaled, Nesma Mohamed El-Gelany, Tarek H. M. Abou-El-Enien  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.5  
 **Type**: new  
-**ArXiv ID**: 2512.20115v1  
+**ArXiv ID**: 2512.21301v1  
 
 #### Abstract
-Offline reinforcement learning (RL) aims to learn a policy that maximizes the expected return using a given static dataset of transitions. However, offline RL faces the distribution shift problem. The policy constraint offline RL method is proposed to solve the distribution shift problem. During the...
+Acute Myeloid Leukemia (AML) remains a clinical challenge due to its extreme molecular heterogeneity and high relapse rates. While precision medicine has introduced mutation-specific therapies, many patients still lack effective, personalized options. This paper presents a novel, end-to-end computat...
 
 ---
 
-### 24. [LongVideoAgent: Multi-Agent Reasoning with Long Videos](https://arxiv.org/abs/2512.20618)
+### 23. [LongVideoAgent: Multi-Agent Reasoning with Long Videos](https://arxiv.org/abs/2512.20618)
 
 **Authors**: Runtao Liu, Ziyi Liu, Jiaqi Tang, Yue Ma, Renjie Pi, Jipeng Zhang, Qifeng Chen  
 **Category**: cs.AI  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
 **ArXiv ID**: 2512.20618v1  
@@ -351,87 +337,101 @@ Recent advances in multimodal LLMs and systems that use tools for long-video QA 
 
 ---
 
-### 25. [Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents](https://arxiv.org/abs/2512.20092)
+### 24. [SMART SLM: Structured Memory and Reasoning Transformer, A Small Language Model for Accurate Document Assistance](https://arxiv.org/abs/2512.21280)
 
-**Authors**: Yiming Du, Baojun Wang, Yifan Xiang, Zhaowei Wang, Wenyu Huang, Boyang Xue, Bin Liang, Xingshan Zeng, Fei Mi, Haoli Bai, Lifeng Shang, Jeff Z. Pan, Yuxin Jiang, Kam-Fai Wong  
+**Authors**: Divij Dudeja, Mayukha Pal  
 **Category**: cs.CL  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2512.20092v1  
+**ArXiv ID**: 2512.21280v1  
 
 #### Abstract
-Temporal reasoning over long, multi-session dialogues is a critical capability for conversational agents. However, existing works and our pilot study have shown that as dialogue histories grow in length and accumulate noise, current long-context models struggle to accurately identify temporally pert...
+The user of Engineering Manuals (EM) finds it difficult to read EM s because they are long, have a dense format which includes written documents, step by step procedures, and standard parameter lists for engineering equipment. Off the shelf transformers, especially compact ones, treat this material ...
 
 ---
 
-### 26. [Scaling Point-based Differentiable Rendering for Large-scale Reconstruction](https://arxiv.org/abs/2512.20017)
+### 25. [RHAPSODY: Execution of Hybrid AI-HPC Workflows at Scale](https://arxiv.org/abs/2512.20795)
 
-**Authors**: Hexu Zhao, Xiaoteng Liu, Xiwen Min, Jianhao Huang, Youming Deng, Yanfei Li, Ang Li, Jinyang Li, Aurojit Panda  
+**Authors**: Aymen Alsaadi, Mason Hooten, Mariya Goliyad, Andre Merzky, Andrew Shao, Mikhail Titov, Tianle Wang, Yian Chen, Maria Kalantzi, Kent Lee, Andrew Park, Indira Pimpalkhare, Nick Radcliffe, Colin Wahl, Pete Mendygral, Matteo Turilli, Shantenu Jha  
 **Category**: cs.DC  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2512.20017v1  
+**ArXiv ID**: 2512.20795v1  
 
 #### Abstract
-Point-based Differentiable Rendering (PBDR) enables high-fidelity 3D scene reconstruction, but scaling PBDR to high-resolution and large scenes requires efficient distributed training systems. Existing systems are tightly coupled to a specific PBDR method. And they suffer from severe communication o...
+Hybrid AI-HPC workflows combine large-scale simulation, training, high-throughput inference, and tightly coupled, agent-driven control within a single execution campaign. These workflows impose heterogeneous and often conflicting requirements on runtime systems, spanning MPI executables, persistent ...
 
 ---
 
-### 27. [Predictive-LoRA: A Proactive and Fragmentation-Aware Serverless Inference System for LLMs](https://arxiv.org/abs/2512.20210)
+### 26. [Enhancing Lung Cancer Treatment Outcome Prediction through Semantic Feature Engineering Using Large Language Models](https://arxiv.org/abs/2512.20633)
 
-**Authors**: Yinan Ni, Xiao Yang, Yuqi Tang, Zhimin Qiu, Chen Wang, Tingzhou Yuan  
-**Category**: cs.DC  
-**Published**: 2025-12-24  
-**Score**: 7.0  
-**Type**: new  
-**ArXiv ID**: 2512.20210v1  
-
-#### Abstract
-The serverless computing paradigm offers compelling advantages for deploying Large Language Model (LLM) inference services, including elastic scaling and pay-per-use billing. However, serving multiple fine-tuned LLMs via Low-Rank Adaptation (LoRA) in serverless environments faces critical challenges...
-
----
-
-### 28. [Exploring Deep-to-Shallow Transformable Neural Networks for Intelligent Embedded Systems](https://arxiv.org/abs/2512.19731)
-
-**Authors**: Xiangzhong Luo, Weichen Liu  
+**Authors**: MunHwan Lee, Shaika Chowdhury, Xiaodi Li, Sivaraman Rajaganapathy, Eric W Klee, Ping Yang, Terence Sio, Liewei Wang, James Cerhan, Nansu NA Zong  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2512.19731v1  
+**ArXiv ID**: 2512.20633v1  
 
 #### Abstract
-Thanks to the evolving network depth, convolutional neural networks (CNNs) have achieved remarkable success across various embedded scenarios, paving the way for ubiquitous embedded intelligence. Despite its promise, the evolving network depth comes at the cost of degraded hardware efficiency. In co...
+Accurate prediction of treatment outcomes in lung cancer remains challenging due to the sparsity, heterogeneity, and contextual overload of real-world electronic health data. Traditional models often fail to capture semantic information across multimodal streams, while large-scale fine-tuning approa...
 
 ---
 
-### 29. [DeepBridge: A Unified and Production-Ready Framework for Multi-Dimensional Machine Learning Validation](https://arxiv.org/abs/2512.19744)
+### 27. [GraphFire-X: Physics-Informed Graph Attention Networks and Structural Gradient Boosting for Building-Scale Wildfire Preparedness at the Wildland-Urban Interface](https://arxiv.org/abs/2512.20813)
 
-**Authors**: Gustavo Coelho Haase, Paulo Henrique Dourado da Silva  
+**Authors**: Miguel Esparza, Vamshi Battal, Ali Mostafavi  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2512.19744v1  
+**ArXiv ID**: 2512.20813v1  
 
 #### Abstract
-We present DeepBridge, an 80K-line Python library that unifies multi-dimensional validation, automatic compliance verification, knowledge distillation, and synthetic data generation. DeepBridge offers: (i) 5 validation suites (fairness with 15 metrics, robustness with weakness detection, uncertainty...
+As wildfires increasingly evolve into urban conflagrations, traditional risk models that treat structures as isolated assets fail to capture the non-linear contagion dynamics characteristic of the wildland urban interface (WUI). This research bridges the gap between mechanistic physics and data driv...
 
 ---
 
-### 30. [Recurrent Off-Policy Deep Reinforcement Learning Doesn't Have to be Slow](https://arxiv.org/abs/2512.20513)
+### 28. [LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics](https://arxiv.org/abs/2512.21010)
 
-**Authors**: Tyler Clark, Christine Evers, Jonathon Hare  
+**Authors**: Jiashuo Liu, Jiayun Wu, Chunjie Wu, Jingkai Liu, Zaiyuan Wang, Huan Zhou, Wenhao Huang, Hongseok Namkoong  
 **Category**: cs.LG  
-**Published**: 2025-12-24  
+**Published**: 2025-12-25  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2512.20513v1  
+**ArXiv ID**: 2512.21010v1  
 
 #### Abstract
-Recurrent off-policy deep reinforcement learning models achieve state-of-the-art performance but are often sidelined due to their high computational demands. In response, we introduce RISE (Recurrent Integration via Simplified Encodings), a novel approach that can leverage recurrent networks in any ...
+The rapid proliferation of Large Language Models (LLMs) and diverse specialized benchmarks necessitates a shift from fragmented, task-specific metrics to a holistic, competitive ranking system that effectively aggregates performance across multiple ability dimensions. Primarily using static scoring,...
+
+---
+
+### 29. [Where Did This Sentence Come From? Tracing Provenance in LLM Reasoning Distillation](https://arxiv.org/abs/2512.20908)
+
+**Authors**: Kaiyuan Liu, Shaotian Yan, Rui Miao, Bing Wang, Chen Shen, Jun Zhang, Jieping Ye  
+**Category**: cs.CL  
+**Published**: 2025-12-25  
+**Score**: 6.5  
+**Type**: new  
+**ArXiv ID**: 2512.20908v1  
+
+#### Abstract
+Reasoning distillation has attracted increasing attention. It typically leverages a large teacher model to generate reasoning paths, which are then used to fine-tune a student model so that it mimics the teacher's behavior in training contexts. However, previous approaches have lacked a detailed ana...
+
+---
+
+### 30. [Reason2Decide: Rationale-Driven Multi-Task Learning](https://arxiv.org/abs/2512.20074)
+
+**Authors**: H M Quamran Hasan, Housam Khalifa Bashier, Jiayi Dai, Mi-Young Kim, Randy Goebel  
+**Category**: cs.AI  
+**Published**: 2025-12-25  
+**Score**: 6.0  
+**Type**: new  
+**ArXiv ID**: 2512.20074v1  
+
+#### Abstract
+Despite the wide adoption of Large Language Models (LLM)s, clinical decision support systems face a critical challenge: achieving high predictive accuracy while generating explanations aligned with the predictions. Current approaches suffer from exposure bias leading to misaligned explanations. We p...
 
 ---
 
