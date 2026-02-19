@@ -9,429 +9,429 @@ You can click this to deploy yours
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/maydomine/arxiv_rss_bot)
 ## 📊 Statistics
 
-- **Last Updated**: 2026-02-18 06:41:43 UTC
+- **Last Updated**: 2026-02-19 06:40:07 UTC
 - **Total Papers Found**: 30
 - **Categories Monitored**: cs.AI, cs.CL, cs.DC, cs.LG
 
 ## 📚 Recent Papers
 
-### 1. [ExpertWeaver: Unlocking the Inherent MoE in Dense LLMs with GLU Activation Patterns](https://arxiv.org/abs/2602.15521)
+### 1. [Distributed physics-informed neural networks via domain decomposition for fast flow reconstruction](https://arxiv.org/abs/2602.15883)
 
-**Authors**: Ziyu Zhao, Tong Zhu, Zhi Zhang, Tiantian Fan, Jinluan Yang, Kun Kuang, Zhongyu Wei, Fei Wu, Yu Cheng  
-**Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 10.0  
+**Authors**: Yixiao Qian, Jiaxu Liu, Zewei Xia, Song Chen, Chao Xu, Shengze Cai  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 13.5  
 **Type**: new  
-**ArXiv ID**: 2602.15521v1  
+**ArXiv ID**: 2602.15883v1  
 
 #### Abstract
-Mixture-of-Experts (MoE) effectively scales model capacity while preserving computational efficiency through sparse expert activation. However, training high-quality MoEs from scratch is prohibitively expensive. A promising alternative is to convert pretrained dense models into sparse MoEs. Existing...
+Physics-Informed Neural Networks (PINNs) offer a powerful paradigm for flow reconstruction, seamlessly integrating sparse velocity measurements with the governing Navier-Stokes equations to recover complete velocity and latent pressure fields. However, scaling such models to large spatiotemporal dom...
 
 ---
 
-### 2. [Panini: Continual Learning in Token Space via Structured Memory](https://arxiv.org/abs/2602.15156)
+### 2. [MoE-Spec: Expert Budgeting for Efficient Speculative Decoding](https://arxiv.org/abs/2602.16052)
 
-**Authors**: Shreyas Rajesh, Pavan Holur, Mehmet Yigit Turali, Chenda Duan, Vwani Roychowdhury  
+**Authors**: Bradley McDanel, Steven Li, Sruthikesh Surineni, Harshit Khaitan  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 12.0  
+**Type**: new  
+**ArXiv ID**: 2602.16052v1  
+
+#### Abstract
+Speculative decoding accelerates Large Language Model (LLM) inference by verifying multiple drafted tokens in parallel. However, for Mixture-of-Experts (MoE) models, this parallelism introduces a severe bottleneck: large draft trees activate many unique experts, significantly increasing memory press...
+
+---
+
+### 3. [push0: Scalable and Fault-Tolerant Orchestration for Zero-Knowledge Proof Generation](https://arxiv.org/abs/2602.16338)
+
+**Authors**: Mohsen Ahmadvand, Rok Pajni\v{c}, Ching-Lun Chiu  
+**Category**: cs.DC  
+**Published**: 2026-02-19  
+**Score**: 11.0  
+**Type**: new  
+**ArXiv ID**: 2602.16338v1  
+
+#### Abstract
+Zero-knowledge proof generation imposes stringent timing and reliability constraints on blockchain systems. For ZK-rollups, delayed proofs cause finality lag and economic loss; for Ethereum's emerging L1 zkEVM, proofs must complete within the 12-second slot window to enable stateless validation. The...
+
+---
+
+### 4. [DistributedEstimator: Distributed Training of Quantum Neural Networks via Circuit Cutting](https://arxiv.org/abs/2602.16233)
+
+**Authors**: Prabhjot Singh, Adel N. Toosi, Rajkumar Buyya  
+**Category**: cs.DC  
+**Published**: 2026-02-19  
+**Score**: 10.5  
+**Type**: new  
+**ArXiv ID**: 2602.16233v1  
+
+#### Abstract
+Circuit cutting decomposes a large quantum circuit into a collection of smaller subcircuits. The outputs of these subcircuits are then classically reconstructed to recover the original expectation values. While prior work characterises cutting overhead largely in terms of subcircuit counts and sampl...
+
+---
+
+### 5. [Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents](https://arxiv.org/abs/2602.16246)
+
+**Authors**: Yun-Shiuan Chuang, Chaitanya Kulkarni, Alec Chiu, Avinash Thangali, Zijie Pan, Shivani Shekhar, Yirou Ge, Yixi Li, Uma Kona, Linsey Pang, Prakhar Mehrotra  
 **Category**: cs.AI  
-**Published**: 2026-02-18  
+**Published**: 2026-02-19  
 **Score**: 9.0  
 **Type**: new  
-**ArXiv ID**: 2602.15156v1  
+**ArXiv ID**: 2602.16246v1  
 
 #### Abstract
-Language models are increasingly used to reason over content they were not trained on, such as new documents, evolving knowledge, and user-specific data. A common approach is retrieval-augmented generation (RAG), which stores verbatim documents externally (as chunks) and retrieves only a relevant su...
+Interactive large language model (LLM) agents operating via multi-turn dialogue and multi-step tool calling are increasingly used in production. Benchmarks for these agents must both reliably compare models and yield on-policy training data. Prior agentic benchmarks (e.g., tau-bench, tau2-bench, App...
 
 ---
 
-### 3. [Improving LLM Reliability through Hybrid Abstention and Adaptive Detection](https://arxiv.org/abs/2602.15391)
+### 6. [How Reliable is Your Service at the Extreme Edge? Analytical Modeling of Computational Reliability](https://arxiv.org/abs/2602.16362)
 
-**Authors**: Ankit Sharma, Nachiket Tapas, Jyotiprakash Patra  
-**Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 8.5  
-**Type**: new  
-**ArXiv ID**: 2602.15391v1  
-
-#### Abstract
-Large Language Models (LLMs) deployed in production environments face a fundamental safety-utility trade-off either a strict filtering mechanisms prevent harmful outputs but often block benign queries or a relaxed controls risk unsafe content generation. Conventional guardrails based on static rules...
-
----
-
-### 4. [Distributed Semi-Speculative Parallel Anisotropic Mesh Adaptation](https://arxiv.org/abs/2602.15204)
-
-**Authors**: Kevin Garner, Polykarpos Thomadakis, Nikos Chrisochoides  
+**Authors**: MHD Saria Allahham, Hossam S. Hassanein  
 **Category**: cs.DC  
-**Published**: 2026-02-18  
-**Score**: 8.5  
+**Published**: 2026-02-19  
+**Score**: 9.0  
 **Type**: new  
-**ArXiv ID**: 2602.15204v1  
+**ArXiv ID**: 2602.16362v1  
 
 #### Abstract
-This paper presents a distributed memory method for anisotropic mesh adaptation that is designed to avoid the use of collective communication and global synchronization techniques. In the presented method, meshing functionality is separated from performance aspects by utilizing a separate entity for...
+Extreme Edge Computing (XEC) distributes streaming workloads across consumer-owned devices, exploiting their proximity to users and ubiquitous availability. Many such workloads are AI-driven, requiring continuous neural network inference for tasks like object detection and video analytics. Distribut...
 
 ---
 
-### 5. [Accelerated Predictive Coding Networks via Direct Kolen-Pollack Feedback Alignment](https://arxiv.org/abs/2602.15571)
+### 7. [Adaptive Semi-Supervised Training of P300 ERP-BCI Speller System with Minimum Calibration Effort](https://arxiv.org/abs/2602.15955)
 
-**Authors**: Davide Casnici, Martin Lefebvre, Justin Dauwels, Charlotte Frenkel  
+**Authors**: Shumeng Chen, Jane E. Huggins, Tianwen Ma  
 **Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 8.5  
+**Published**: 2026-02-19  
+**Score**: 9.0  
 **Type**: new  
-**ArXiv ID**: 2602.15571v1  
+**ArXiv ID**: 2602.15955v1  
 
 #### Abstract
-Predictive coding (PC) is a biologically inspired algorithm for training neural networks that relies only on local updates, allowing parallel learning across layers. However, practical implementations face two key limitations: error signals must still propagate from the output to early layers throug...
+A P300 ERP-based Brain-Computer Interface (BCI) speller is an assistive communication tool. It searches for the P300 event-related potential (ERP) elicited by target stimuli, distinguishing it from the neural responses to non-target stimuli embedded in electroencephalogram (EEG) signals. Conventiona...
 
 ---
 
-### 6. [The Stationarity Bias: Stratified Stress-Testing for Time-Series Imputation in Regulated Dynamical Systems](https://arxiv.org/abs/2602.15637)
+### 8. [Supercharging Agenda Setting Research: The ParlaCAP Dataset of 28 European Parliaments and a Scalable Multilingual LLM-Based Classification](https://arxiv.org/abs/2602.16516)
 
-**Authors**: Amirreza Dolatpour Fathkouhi, Alireza Namazi, Heman Shakeri  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 8.5  
-**Type**: new  
-**ArXiv ID**: 2602.15637v1  
-
-#### Abstract
-Time-series imputation benchmarks employ uniform random masking and shape-agnostic metrics (MSE, RMSE), implicitly weighting evaluation by regime prevalence. In systems with a dominant attractor -- homeostatic physiology, nominal industrial operation, stable network traffic -- this creates a systema...
-
----
-
-### 7. [AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents](https://arxiv.org/abs/2602.15325)
-
-**Authors**: Zhixing Zhang, Jesen Zhang, Hao Liu, Qinhan Lv, Jing Yang, Kaitong Cai, Keze Wang  
-**Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 8.0  
-**Type**: new  
-**ArXiv ID**: 2602.15325v1  
-
-#### Abstract
-Foundation models for agriculture are increasingly trained on massive spatiotemporal data (e.g., multi-spectral remote sensing, soil grids, and field-level management logs) and achieve strong performance on forecasting and monitoring. However, these models lack language-based reasoning and interacti...
-
----
-
-### 8. [BindCLIP: A Unified Contrastive-Generative Representation Learning Framework for Virtual Screening](https://arxiv.org/abs/2602.15236)
-
-**Authors**: Anjie Qiao, Zhen Wang, Yaliang Li, Jiahua Rao, Yuedong Yang  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 8.0  
-**Type**: new  
-**ArXiv ID**: 2602.15236v1  
-
-#### Abstract
-Virtual screening aims to efficiently identify active ligands from massive chemical libraries for a given target pocket. Recent CLIP-style models such as DrugCLIP enable scalable virtual screening by embedding pockets and ligands into a shared space. However, our analyses indicate that such represen...
-
----
-
-### 9. [CAMEL: An ECG Language Model for Forecasting Cardiac Events](https://arxiv.org/abs/2602.15677)
-
-**Authors**: Neelay Velingker, Alaia Solko-Breslin, Mayank Keoliya, Seewon Choi, Jiayi Xin, Anika Marathe, Alireza Oraii, Rajat Deo, Sameed Khatana, Rajeev Alur, Mayur Naik, Eric Wong  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 8.0  
-**Type**: new  
-**ArXiv ID**: 2602.15677v1  
-
-#### Abstract
-Electrocardiograms (ECG) are electrical recordings of the heart that are critical for diagnosing cardiovascular conditions. ECG language models (ELMs) have recently emerged as a promising framework for ECG classification accompanied by report generation. However, current models cannot forecast futur...
-
----
-
-### 10. [PERSONA: Dynamic and Compositional Inference-Time Personality Control via Activation Vector Algebra](https://arxiv.org/abs/2602.15669)
-
-**Authors**: Xiachong Feng, Liang Zhao, Weihong Zhong, Yichong Huang, Yuxuan Gu, Lingpeng Kong, Xiaocheng Feng, Bing Qin  
-**Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.15669v1  
-
-#### Abstract
-Current methods for personality control in Large Language Models rely on static prompting or expensive fine-tuning, failing to capture the dynamic and compositional nature of human traits. We introduce PERSONA, a training-free framework that achieves fine-tuning level performance through direct mani...
-
----
-
-### 11. [TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models](https://arxiv.org/abs/2602.15449)
-
-**Authors**: Chansung Park, Juyong Jiang, Fan Wang, Sayak Paul, Jiasi Shen, Jing Tang, Jianguo Li  
+**Authors**: Taja Kuzman Punger\v{s}ek, Peter Rupnik, Daniela \v{S}irini\'c, Nikola Ljube\v{s}i\'c  
 **Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 7.5  
+**Published**: 2026-02-19  
+**Score**: 8.5  
 **Type**: new  
-**ArXiv ID**: 2602.15449v1  
+**ArXiv ID**: 2602.16516v1  
 
 #### Abstract
-Large Language Models (LLMs) are changing the coding paradigm, known as vibe coding, yet synthesizing algorithmically sophisticated and robust code still remains a critical challenge. Incentivizing the deep reasoning capabilities of LLMs is essential to overcoming this hurdle. Reinforcement Fine-Tun...
+This paper introduces ParlaCAP, a large-scale dataset for analyzing parliamentary agenda setting across Europe, and proposes a cost-effective method for building domain-specific policy topic classifiers. Applying the Comparative Agendas Project (CAP) schema to the multilingual ParlaMint corpus of ov...
 
 ---
 
-### 12. [FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations](https://arxiv.org/abs/2602.15379)
+### 9. [Reinforced Fast Weights with Next-Sequence Prediction](https://arxiv.org/abs/2602.16704)
 
-**Authors**: Zhihao Shu, Md Musfiqur Rahman Sanim, Hangyu Zheng, Kunxiong Zhu, Miao Yin, Gagan Agrawal, Wei Niu  
-**Category**: cs.DC  
-**Published**: 2026-02-18  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.15379v1  
-
-#### Abstract
-The increasing size and complexity of modern deep neural networks (DNNs) pose significant challenges for on-device inference on mobile GPUs, with limited memory and computational resources. Existing DNN acceleration frameworks primarily deploy a weight preloading strategy, where all model parameters...
-
----
-
-### 13. [Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge](https://arxiv.org/abs/2602.15184)
-
-**Authors**: Siying Ma, Mehrdad M. Zadeh, Mauricio Soroco, Wuyang Chen, Jiguo Cao, Vijay Ganesh  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.15184v1  
-
-#### Abstract
-Recent advances in scientific machine learning (SciML) have enabled neural operators (NOs) to serve as powerful surrogates for modeling the dynamic evolution of physical systems governed by partial differential equations (PDEs). While existing approaches focus primarily on learning simulations from ...
-
----
-
-### 14. [1-Bit Wonder: Improving QAT Performance in the Low-Bit Regime through K-Means Quantization](https://arxiv.org/abs/2602.15563)
-
-**Authors**: Sohir Maskey, Constantin Eichenberg, Johannes Messner, Douglas Orr  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.15563v1  
-
-#### Abstract
-Quantization-aware training (QAT) is an effective method to drastically reduce the memory footprint of LLMs while keeping performance degradation at an acceptable level. However, the optimal choice of quantization format and bit-width presents a challenge in practice. The full design space of quanti...
-
----
-
-### 15. [Neural Network-Based Parameter Estimation of a Labour Market Agent-Based Model](https://arxiv.org/abs/2602.15572)
-
-**Authors**: M Lopes Alves, Joel Dyer, Doyne Farmer, Michael Wooldridge, Anisoara Calinescu  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.15572v1  
-
-#### Abstract
-Agent-based modelling (ABM) is a widespread approach to simulate complex systems. Advancements in computational processing and storage have facilitated the adoption of ABMs across many fields; however, ABMs face challenges that limit their use as decision-support tools. A significant issue is parame...
-
----
-
-### 16. [The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems](https://arxiv.org/abs/2602.15382)
-
-**Authors**: Xiaoze Liu, Ruowang Zhang, Weichen Yu, Siheng Xiong, Liu He, Feijie Wu, Hoin Jung, Matt Fredrikson, Xiaoqian Wang, Jing Gao  
+**Authors**: Hee Seung Hwang, Xindi Wu, Sanghyuk Chun, Olga Russakovsky  
 **Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 7.0  
+**Published**: 2026-02-19  
+**Score**: 8.5  
 **Type**: new  
-**ArXiv ID**: 2602.15382v1  
+**ArXiv ID**: 2602.16704v1  
 
 #### Abstract
-Multi-Agent Systems (MAS) powered by Large Language Models have unlocked advanced collaborative reasoning, yet they remain shackled by the inefficiency of discrete text communication, which imposes significant runtime overhead and information quantization loss. While latent state transfer offers a h...
+Fast weight architectures offer a promising alternative to attention-based transformers for long-context modeling by maintaining constant memory overhead regardless of context length. However, their potential is limited by the next-token prediction (NTP) training paradigm. NTP optimizes single-token...
 
 ---
 
-### 17. [COMPOT: Calibration-Optimized Matrix Procrustes Orthogonalization for Transformers Compression](https://arxiv.org/abs/2602.15200)
+### 10. [Causally-Guided Automated Feature Engineering with Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2602.16435)
 
-**Authors**: Denis Makhov, Dmitriy Shopkhoev, Magauiya Zhussip, Ammar Ali, Baher Mohammad, Stamatios Lefkimmiatis  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.0  
+**Authors**: Arun Vignesh Malarkkan, Wangyang Ying, Yanjie Fu  
+**Category**: cs.AI  
+**Published**: 2026-02-19  
+**Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2602.15200v1  
+**ArXiv ID**: 2602.16435v1  
 
 #### Abstract
-Post-training compression of Transformer models commonly relies on truncated singular value decomposition (SVD). However, enforcing a single shared subspace can degrade accuracy even at moderate compression. Sparse dictionary learning provides a more flexible union-of-subspaces representation, but e...
+Automated feature engineering (AFE) enables AI systems to autonomously construct high-utility representations from raw tabular data. However, existing AFE methods rely on statistical heuristics, yielding brittle features that fail under distribution shift. We introduce CAFE, a framework that reformu...
 
 ---
 
-### 18. [Size Transferability of Graph Transformers with Convolutional Positional Encodings](https://arxiv.org/abs/2602.15239)
+### 11. [Multi-source Heterogeneous Public Opinion Analysis via Collaborative Reasoning and Adaptive Fusion: A Systematically Integrated Approach](https://arxiv.org/abs/2602.15857)
 
-**Authors**: Javier Porras-Valenzuela, Zhiyang Wang, Alejandro Ribeiro  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.0  
+**Authors**: Yi Liu  
+**Category**: cs.CL  
+**Published**: 2026-02-19  
+**Score**: 7.5  
 **Type**: new  
-**ArXiv ID**: 2602.15239v1  
+**ArXiv ID**: 2602.15857v1  
 
 #### Abstract
-Transformers have achieved remarkable success across domains, motivating the rise of Graph Transformers (GTs) as attention-based architectures for graph-structured data. A key design choice in GTs is the use of Graph Neural Network (GNN)-based positional encodings to incorporate structural informati...
+The analysis of public opinion from multiple heterogeneous sources presents significant challenges due to structural differences, semantic variations, and platform-specific biases. This paper introduces a novel Collaborative Reasoning and Adaptive Fusion (CRAF) framework that systematically integrat...
 
 ---
 
-### 19. [Continuous-Time Piecewise-Linear Recurrent Neural Networks](https://arxiv.org/abs/2602.15649)
+### 12. [LLM-Driven Intent-Based Privacy-Aware Orchestration Across the Cloud-Edge Continuum](https://arxiv.org/abs/2602.16100)
 
-**Authors**: Alena Br\"andle, Lukas Eisenmann, Florian G\"otz, Daniel Durstewitz  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 7.0  
-**Type**: new  
-**ArXiv ID**: 2602.15649v1  
-
-#### Abstract
-In dynamical systems reconstruction (DSR) we aim to recover the dynamical system (DS) underlying observed time series. Specifically, we aim to learn a generative surrogate model which approximates the underlying, data-generating DS, and recreates its long-term properties (`climate statistics'). In s...
-
----
-
-### 20. [Co-Design and Evaluation of a CPU-Free MPI GPU Communication Abstraction and Implementation](https://arxiv.org/abs/2602.15356)
-
-**Authors**: Patrick G. Bridges (University of New Mexico), Derek Schafer (University of New Mexico), Jack Lange (Oak Ridge National Laboratory), James B. White III (Oak Ridge National Laboratory), Anthony Skjellum (Tennessee Technological University), Evan Suggs (Tennessee Technological University), Thomas Hines (Tennessee Technological University), Purushotham Bangalore (University of Alabama), Matthew G. F. Dosanjh (Sandia National Laboratories), Whit Schonbein (Sandia National Laboratories)  
+**Authors**: Zijie Su, Muhammed Tawfiqul Islam, Mohammad Goudarzi, Adel N. Toosi  
 **Category**: cs.DC  
-**Published**: 2026-02-18  
+**Published**: 2026-02-19  
+**Score**: 7.5  
+**Type**: new  
+**ArXiv ID**: 2602.16100v1  
+
+#### Abstract
+With the rapid advancement of large language models (LLMs), efficiently serving LLM inference under limited GPU resources has become a critical challenge. Recently, an increasing number of studies have explored applying serverless computing paradigms to LLM serving in order to maximize resource util...
+
+---
+
+### 13. [Training-Free Adaptation of Diffusion Models via Doob's $h$-Transform](https://arxiv.org/abs/2602.16198)
+
+**Authors**: Qijie Zhu, Zeqi Ye, Han Liu, Zhaoran Wang, Minshuo Chen  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.5  
+**Type**: new  
+**ArXiv ID**: 2602.16198v1  
+
+#### Abstract
+Adaptation methods have been a workhorse for unlocking the transformative power of pre-trained diffusion models in diverse applications. Existing approaches often abstract adaptation objectives as a reward function and steer diffusion models to generate high-reward samples. However, these approaches...
+
+---
+
+### 14. [EnterpriseGym Corecraft: Training Generalizable Agents on High-Fidelity RL Environments](https://arxiv.org/abs/2602.16179)
+
+**Authors**: Sushant Mehta, Logan Ritchie, Suhaas Garre, Nick Heiner, Edwin Chen  
+**Category**: cs.AI  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16179v1  
+
+#### Abstract
+We show that training AI agents on high-fidelity reinforcement learning environments produces capabilities that generalize beyond the training distribution. We introduce \corecraft{}, the first environment in \textsc{EnterpriseGym}, Surge AI's suite of agentic RL environments. \corecraft{} is a full...
+
+---
+
+### 15. [Framework of Thoughts: A Foundation Framework for Dynamic and Optimized Reasoning based on Chains, Trees, and Graphs](https://arxiv.org/abs/2602.16512)
+
+**Authors**: Felix Fricke, Simon Malberg, Georg Groh  
+**Category**: cs.AI  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16512v1  
+
+#### Abstract
+Prompting schemes such as Chain of Thought, Tree of Thoughts, and Graph of Thoughts can significantly enhance the reasoning capabilities of large language models. However, most existing schemes require users to define static, problem-specific reasoning structures that lack adaptability to dynamic or...
+
+---
+
+### 16. [From Transcripts to AI Agents: Knowledge Extraction, RAG Integration, and Robust Evaluation of Conversational AI Assistants](https://arxiv.org/abs/2602.15859)
+
+**Authors**: Krittin Pachtrachai, Petmongkon Pornpichitsuwan, Wachiravit Modecrua, Touchapon Kraisingkorn  
+**Category**: cs.CL  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.15859v1  
+
+#### Abstract
+Building reliable conversational AI assistants for customer-facing industries remains challenging due to noisy conversational data, fragmented knowledge, and the requirement for accurate human hand-off - particularly in domains that depend heavily on real-time information. This paper presents an end...
+
+---
+
+### 17. [TabAgent: A Framework for Replacing Agentic Generative Components with Tabular-Textual Classifiers](https://arxiv.org/abs/2602.16429)
+
+**Authors**: Ido Levy, Eilam Shapira, Yinon Goldshtein, Avi Yaeli, Nir Mashkif, Segev Shlomov  
+**Category**: cs.CL  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16429v1  
+
+#### Abstract
+Agentic systems, AI architectures that autonomously execute multi-step workflows to achieve complex goals, are often built using repeated large language model (LLM) calls for closed-set decision tasks such as routing, shortlisting, gating, and verification. While convenient, this design makes deploy...
+
+---
+
+### 18. [Muon with Spectral Guidance: Efficient Optimization for Scientific Machine Learning](https://arxiv.org/abs/2602.16167)
+
+**Authors**: Binghang Lu, Jiahao Zhang, Guang Lin  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16167v1  
+
+#### Abstract
+Physics-informed neural networks and neural operators often suffer from severe optimization difficulties caused by ill-conditioned gradients, multi-scale spectral behavior, and stiffness induced by physical constraints. Recently, the Muon optimizer has shown promise by performing orthogonalized upda...
+
+---
+
+### 19. [Fast KV Compaction via Attention Matching](https://arxiv.org/abs/2602.16284)
+
+**Authors**: Adam Zweiger, Xinghong Fu, Han Guo, Yoon Kim  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16284v1  
+
+#### Abstract
+Scaling language models to long contexts is often bottlenecked by the size of the key-value (KV) cache. In deployed settings, long contexts are typically managed through compaction in token space via summarization. However, summarization can be highly lossy, substantially harming downstream performa...
+
+---
+
+### 20. [Capacity-constrained demand response in smart grids using deep reinforcement learning](https://arxiv.org/abs/2602.16525)
+
+**Authors**: Shafagh Abband Pashaki, Sepehr Maleki, Amir Badiee  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16525v1  
+
+#### Abstract
+This paper presents a capacity-constrained incentive-based demand response approach for residential smart grids. It aims to maintain electricity grid capacity limits and prevent congestion by financially incentivising end users to reduce or shift their energy consumption. The proposed framework adop...
+
+---
+
+### 21. [Vulnerability Analysis of Safe Reinforcement Learning via Inverse Constrained Reinforcement Learning](https://arxiv.org/abs/2602.16543)
+
+**Authors**: Jialiang Fan, Shixiong Jiang, Mengyu Liu, Fanxin Kong  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16543v1  
+
+#### Abstract
+Safe reinforcement learning (Safe RL) aims to ensure policy performance while satisfying safety constraints. However, most existing Safe RL methods assume benign environments, making them vulnerable to adversarial perturbations commonly encountered in real-world settings. In addition, existing gradi...
+
+---
+
+### 22. [A Scalable Approach to Solving Simulation-Based Network Security Games](https://arxiv.org/abs/2602.16564)
+
+**Authors**: Michael Lanier, Yevgeniy Vorobeychik  
+**Category**: cs.LG  
+**Published**: 2026-02-19  
+**Score**: 7.0  
+**Type**: new  
+**ArXiv ID**: 2602.16564v1  
+
+#### Abstract
+We introduce MetaDOAR, a lightweight meta-controller that augments the Double Oracle / PSRO paradigm with a learned, partition-aware filtering layer and Q-value caching to enable scalable multi-agent reinforcement learning on very large cyber-network environments. MetaDOAR learns a compact state pro...
+
+---
+
+### 23. [Towards Efficient Constraint Handling in Neural Solvers for Routing Problems](https://arxiv.org/abs/2602.16012)
+
+**Authors**: Jieyi Bi, Zhiguang Cao, Jianan Zhou, Wen Song, Yaoxin Wu, Jie Zhang, Yining Ma, Cathy Wu  
+**Category**: cs.AI  
+**Published**: 2026-02-19  
 **Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.15356v1  
+**ArXiv ID**: 2602.16012v1  
 
 #### Abstract
-Removing the CPU from the communication fast path is essential to efficient GPU-based ML and HPC application performance. However, existing GPU communication APIs either continue to rely on the CPU for communication or rely on APIs that place significant synchronization burdens on programmers. In th...
+Neural solvers have achieved impressive progress in addressing simple routing problems, particularly excelling in computational efficiency. However, their advantages under complex constraints remain nascent, for which current constraint-handling schemes via feasibility masking or implicit feasibilit...
 
 ---
 
-### 21. [Recursive Concept Evolution for Compositional Reasoning in Large Language Models](https://arxiv.org/abs/2602.15725)
+### 24. [Multi-agent cooperation through in-context co-player inference](https://arxiv.org/abs/2602.16301)
 
-**Authors**: Sarim Chaudhry  
+**Authors**: Marissa A. Weis, Maciej Wo{\l}czyk, Rajai Nasser, Rif A. Saurous, Blaise Ag\"uera y Arcas, Jo\~ao Sacramento, Alexander Meulemans  
 **Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 6.0  
+**Published**: 2026-02-19  
+**Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.15725v1  
+**ArXiv ID**: 2602.16301v1  
 
 #### Abstract
-Large language models achieve strong performance on many complex reasoning tasks, yet their accuracy degrades sharply on benchmarks that require compositional reasoning, including ARC-AGI-2, GPQA, MATH, BBH, and HLE. Existing methods improve reasoning by expanding token-level search through chain-of...
+Achieving cooperation among self-interested agents remains a fundamental challenge in multi-agent reinforcement learning. Recent work showed that mutual cooperation can be induced between "learning-aware" agents that account for and shape the learning dynamics of their co-players. However, existing ...
 
 ---
 
-### 22. [In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations](https://arxiv.org/abs/2602.15456)
+### 25. [Towards Secure and Scalable Energy Theft Detection: A Federated Learning Approach for Resource-Constrained Smart Meters](https://arxiv.org/abs/2602.16181)
 
-**Authors**: Mohammad Aflah Khan, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander  
-**Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 6.0  
-**Type**: new  
-**ArXiv ID**: 2602.15456v1  
-
-#### Abstract
-Agents based on Large Language Models (LLMs) are increasingly being deployed as interfaces to information on online platforms. These agents filter, prioritize, and synthesize information retrieved from the platforms' back-end databases or via web search. In these scenarios, LLM agents govern the inf...
-
----
-
-### 23. [Causal Effect Estimation with Latent Textual Treatments](https://arxiv.org/abs/2602.15730)
-
-**Authors**: Omri Feldman, Amar Venugopal, Jann Spiess, Amir Feder  
-**Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 6.0  
-**Type**: new  
-**ArXiv ID**: 2602.15730v1  
-
-#### Abstract
-Understanding the causal effects of text on downstream outcomes is a central task in many applications. Estimating such effects requires researchers to run controlled experiments that systematically vary textual features. While large language models (LLMs) hold promise for generating text, producing...
-
----
-
-### 24. [Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning](https://arxiv.org/abs/2602.15817)
-
-**Authors**: Oswin So, Eric Yang Yu, Songyuan Zhang, Matthew Cleaveland, Mitchell Black, Chuchu Fan  
+**Authors**: Diego Labate, Dipanwita Thakur, Giancarlo Fortino  
 **Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 6.0  
+**Published**: 2026-02-19  
+**Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.15817v1  
+**ArXiv ID**: 2602.16181v1  
 
 #### Abstract
-Recent advances in deep reinforcement learning (RL) have achieved strong results on high-dimensional control tasks, but applying RL to reachability problems raises a fundamental mismatch: reachability seeks to maximize the set of states from which a system remains safe indefinitely, while RL optimiz...
+Energy theft poses a significant threat to the stability and efficiency of smart grids, leading to substantial economic losses and operational challenges. Traditional centralized machine learning approaches for theft detection require aggregating user data, raising serious concerns about privacy and...
 
 ---
 
-### 25. [Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs](https://arxiv.org/abs/2602.15173)
+### 26. [Agent Skill Framework: Perspectives on the Potential of Small Language Models in Industrial Environments](https://arxiv.org/abs/2602.16653)
 
-**Authors**: Luise Ge, Yongyan Zhang, Yevgeniy Vorobeychik  
+**Authors**: Yangjie Xu, Lujun Li, Lama Sleem, Niccolo Gentile, Yewei Song, Yiqun Wang, Siming Ji, Wenbo Wu, Radu State  
 **Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 5.5  
+**Published**: 2026-02-19  
+**Score**: 6.0  
 **Type**: new  
-**ArXiv ID**: 2602.15173v1  
+**ArXiv ID**: 2602.16653v1  
 
 #### Abstract
-The use of large language models either as decision support systems, or in agentic workflows, is rapidly transforming the digital ecosystem. However, the understanding of LLM decision-making under uncertainty remains limited. We initiate a comparative study of LLM risky choices along two dimensions:...
+Agent Skill framework, now widely and officially supported by major players such as GitHub Copilot, LangChain, and OpenAI, performs especially well with proprietary models by improving context engineering, reducing hallucinations, and boosting task accuracy. Based on these observations, an investiga...
 
 ---
 
-### 26. [Mnemis: Dual-Route Retrieval on Hierarchical Graphs for Long-Term LLM Memory](https://arxiv.org/abs/2602.15313)
+### 27. [Towards Fair and Efficient De-identification: Quantifying the Efficiency and Generalizability of De-identification Approaches](https://arxiv.org/abs/2602.15869)
 
-**Authors**: Zihao Tang, Xin Yu, Ziyu Xiao, Zengxuan Wen, Zelin Li, Jiaxi Zhou, Hualei Wang, Haohua Wang, Haizhen Huang, Weiwei Deng, Feng Sun, Qi Zhang  
+**Authors**: Noopur Zambare, Kiana Aghakasiri, Carissa Lin, Carrie Ye, J. Ross Mitchell, Mohamed Abdalla  
 **Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 5.5  
+**Published**: 2026-02-19  
+**Score**: 6.0  
 **Type**: new  
-**ArXiv ID**: 2602.15313v1  
+**ArXiv ID**: 2602.15869v1  
 
 #### Abstract
-AI Memory, specifically how models organizes and retrieves historical messages, becomes increasingly valuable to Large Language Models (LLMs), yet existing methods (RAG and Graph-RAG) primarily retrieve memory through similarity-based mechanisms. While efficient, such System-1-style retrieval strugg...
+Large language models (LLMs) have shown strong performance on clinical de-identification, the task of identifying sensitive identifiers to protect privacy. However, previous work has not examined their generalizability between formats, cultures, and genders. In this work, we systematically evaluate ...
 
 ---
 
-### 27. [LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models](https://arxiv.org/abs/2602.15675)
+### 28. [VDLM: Variable Diffusion LMs via Robust Latent-to-Text Rendering](https://arxiv.org/abs/2602.15870)
 
-**Authors**: Ahmed Khaled Khamis, Hesham Ali  
+**Authors**: Shuhui Qu  
 **Category**: cs.CL  
-**Published**: 2026-02-18  
-**Score**: 5.5  
+**Published**: 2026-02-19  
+**Score**: 6.0  
 **Type**: new  
-**ArXiv ID**: 2602.15675v1  
+**ArXiv ID**: 2602.15870v1  
 
 #### Abstract
-Despite the advances in neural text to speech (TTS), many Arabic dialectal varieties remain marginally addressed, with most resources concentrated on Modern Spoken Arabic (MSA) and Gulf dialects, leaving Egyptian Arabic -- the most widely understood Arabic dialect -- severely under-resourced. We add...
+Autoregressive language models decode left-to-right with irreversible commitments, limiting revision during multi-step reasoning. We propose \textbf{VDLM}, a modular variable diffusion language model that separates semantic planning from text rendering. VDLM applies LLaDA-style masked diffusion over...
 
 ---
 
-### 28. [On the Out-of-Distribution Generalization of Reasoning in Multimodal LLMs for Simple Visual Planning Tasks](https://arxiv.org/abs/2602.15460)
+### 29. [P-RAG: Prompt-Enhanced Parametric RAG with LoRA and Selective CoT for Biomedical and Multi-Hop QA](https://arxiv.org/abs/2602.15874)
 
-**Authors**: Yannic Neuhaus, Nicolas Flammarion, Matthias Hein, Francesco Croce  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 5.5  
+**Authors**: Xingda Lyu, Gongfu Lyu, Zitai Yan, Yuxin Jiang  
+**Category**: cs.CL  
+**Published**: 2026-02-19  
+**Score**: 6.0  
 **Type**: new  
-**ArXiv ID**: 2602.15460v1  
+**ArXiv ID**: 2602.15874v1  
 
 #### Abstract
-Integrating reasoning in large language models and large vision-language models has recently led to significant improvement of their capabilities. However, the generalization of reasoning models is still vaguely defined and poorly understood. In this work, we present an evaluation framework to rigor...
+Large Language Models (LLMs) demonstrate remarkable capabilities but remain limited by their reliance on static training data. Retrieval-Augmented Generation (RAG) addresses this constraint by retrieving external knowledge during inference, though it still depends heavily on knowledge base quality. ...
 
 ---
 
-### 29. [Controlled oscillation modeling using port-Hamiltonian neural networks](https://arxiv.org/abs/2602.15704)
+### 30. [Quality-constrained Entropy Maximization Policy Optimization for LLM Diversity](https://arxiv.org/abs/2602.15894)
 
-**Authors**: Maximino Linares, Guillaume Doras, Thomas H\'elie  
-**Category**: cs.LG  
-**Published**: 2026-02-18  
-**Score**: 5.5  
+**Authors**: Haihui Pan, Yuzhong Hong, Shaoke Lv, Junwei Bao, Hongfei Jiang, Yang Song  
+**Category**: cs.CL  
+**Published**: 2026-02-19  
+**Score**: 6.0  
 **Type**: new  
-**ArXiv ID**: 2602.15704v1  
+**ArXiv ID**: 2602.15894v1  
 
 #### Abstract
-Learning dynamical systems through purely data-driven methods is challenging as they do not learn the underlying conservation laws that enable them to correctly generalize. Existing port-Hamiltonian neural network methods have recently been successfully applied for modeling mechanical systems. Howev...
-
----
-
-### 30. [Secure and Energy-Efficient Wireless Agentic AI Networks](https://arxiv.org/abs/2602.15212)
-
-**Authors**: Yuanyan Song, Kezhi Wang, Xinmian Xu  
-**Category**: cs.AI  
-**Published**: 2026-02-18  
-**Score**: 5.0  
-**Type**: new  
-**ArXiv ID**: 2602.15212v1  
-
-#### Abstract
-In this paper, we introduce a secure wireless agentic AI network comprising one supervisor AI agent and multiple other AI agents to provision quality of service (QoS) for users' reasoning tasks while ensuring confidentiality of private knowledge and reasoning outcomes. Specifically, the supervisor A...
+Recent research indicates that while alignment methods significantly improve the quality of large language model(LLM) outputs, they simultaneously reduce the diversity of the models' output. Although some methods have been proposed to enhance LLM output diversity, they often come at the cost of redu...
 
 ---
 
