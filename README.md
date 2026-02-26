@@ -9,429 +9,429 @@ You can click this to deploy yours
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/maydomine/arxiv_rss_bot)
 ## 📊 Statistics
 
-- **Last Updated**: 2026-02-25 06:42:19 UTC
+- **Last Updated**: 2026-02-26 06:37:31 UTC
 - **Total Papers Found**: 30
 - **Categories Monitored**: cs.AI, cs.CL, cs.DC, cs.LG
 
 ## 📚 Recent Papers
 
-### 1. [Lagom: Unleashing the Power of Communication and Computation Overlapping for Distributed LLM Training](https://arxiv.org/abs/2602.20656)
+### 1. [DHP: Efficient Scaling of MLLM Training with Dynamic Hybrid Parallelism](https://arxiv.org/abs/2602.21788)
 
-**Authors**: Guanbin Xu, ZhenGuo Xu, Yuzhe Li, Youhui Bai, Ping Gong, Chaoyi Ruan, Cheng Li  
+**Authors**: Yifan Niu, Han Xiao, Dongyi Liu, Wei Zhou, Jia Li  
 **Category**: cs.DC  
-**Published**: 2026-02-25  
-**Score**: 12.5  
+**Published**: 2026-02-26  
+**Score**: 16.5  
 **Type**: new  
-**ArXiv ID**: 2602.20656v1  
+**ArXiv ID**: 2602.21788v1  
 
 #### Abstract
-Overlapping communication with computation is crucial for distributed large-model training, yet optimizing it - especially when computation becomes the bottleneck-remains challenging. We present Lagom, a system that co-tunes communication parameters to balance resource usage between computation and ...
+Scaling long-context capabilities is crucial for Multimodal Large Language Models (MLLMs). However, real-world multimodal datasets are extremely heterogeneous. Existing training frameworks predominantly rely on static parallelism strategies, which suffer from severe load imbalance, redundant communi...
 
 ---
 
-### 2. [Scaling Vision Transformers: Evaluating DeepSpeed for Image-Centric Workloads](https://arxiv.org/abs/2602.21081)
+### 2. [ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning](https://arxiv.org/abs/2602.21534)
 
-**Authors**: Huy Trinh, Rebecca Ma, Zeqi Yu, Tahsin Reza  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
+**Authors**: Xiaoxuan Wang, Han Zhang, Haixin Wang, Yidan Shi, Ruoyan Li, Kaiqiao Han, Chenyi Tong, Haoran Deng, Renliang Sun, Alexander Taylor, Yanqiao Zhu, Jason Cong, Yizhou Sun, Wei Wang  
+**Category**: cs.AI  
+**Published**: 2026-02-26  
+**Score**: 13.5  
+**Type**: new  
+**ArXiv ID**: 2602.21534v1  
+
+#### Abstract
+Agentic reinforcement learning (ARL) has rapidly gained attention as a promising paradigm for training agents to solve complex, multi-step interactive tasks. Despite encouraging early results, ARL remains highly unstable, often leading to training collapse. This instability limits scalability to lar...
+
+---
+
+### 3. [Multi-Layer Scheduling for MoE-Based LLM Reasoning](https://arxiv.org/abs/2602.21626)
+
+**Authors**: Yifan Sun, Gholamreza Haffar, Minxian Xu, Rajkumar Buyya, Adel N. Toosi  
+**Category**: cs.DC  
+**Published**: 2026-02-26  
 **Score**: 12.0  
 **Type**: new  
-**ArXiv ID**: 2602.21081v1  
+**ArXiv ID**: 2602.21626v1  
 
 #### Abstract
-Vision Transformers (ViTs) have demonstrated remarkable potential in image processing tasks by utilizing self-attention mechanisms to capture global relationships within data. However, their scalability is hindered by significant computational and memory demands, especially for large-scale models wi...
+Large Language Models (LLMs) have achieved remarkable success across a wide range of tasks, but serving them efficiently at scale remains a critical challenge due to their substantial computational and latency demands. While most existing inference frameworks rely on simple scheduling strategies suc...
 
 ---
 
-### 3. [QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2602.20309)
+### 4. [C$^{2}$TC: A Training-Free Framework for Efficient Tabular Data Condensation](https://arxiv.org/abs/2602.21717)
 
-**Authors**: Jingxuan Zhang, Yunta Hsieh, Zhongwei Wang, Haokun Lin, Xin Wang, Ziqi Wang, Yingtie Lei, Mi Zhang  
+**Authors**: Sijia Xu, Fan Li, Xiaoyang Wang, Zhengyi Yang, Xuemin Lin  
 **Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 11.0  
+**Published**: 2026-02-26  
+**Score**: 12.0  
 **Type**: new  
-**ArXiv ID**: 2602.20309v1  
+**ArXiv ID**: 2602.21717v1  
 
 #### Abstract
-Vision-language-action (VLA) models unify perception, language, and control for embodied agents but face significant challenges in practical deployment due to rapidly increasing compute and memory demands, especially as models scale to longer horizons and larger backbones. To address these bottlenec...
+Tabular data is the primary data format in industrial relational databases, underpinning modern data analytics and decision-making. However, the increasing scale of tabular data poses significant computational and storage challenges to learning-based analytical systems. This highlights the need for ...
 
 ---
 
-### 4. [ReviveMoE: Fast Recovery for Hardware Failures in Large-Scale MoE LLM Inference Deployments](https://arxiv.org/abs/2602.21140)
+### 5. [NGDB-Zoo: Towards Efficient and Scalable Neural Graph Databases Training](https://arxiv.org/abs/2602.21597)
 
-**Authors**: Haley Li, Xinglu Wang, Cong Feng, Chunxu Zuo, Yanan Wang, Hei Lo, Yufei Cui, Bingji Wang, Duo Cui, Shuming Jing, Yizhou Shan, Ying Xiong, Jiannan Wang, Yong Zhang, Zhenan Fan  
-**Category**: cs.DC  
-**Published**: 2026-02-25  
+**Authors**: Zhongwei Xie, Jiaxin Bai, Shujie Liu, Haoyu Huang, Yufei Li, Yisen Gao, Hong Ting Tsang, Yangqiu Song  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
 **Score**: 10.5  
 **Type**: new  
-**ArXiv ID**: 2602.21140v1  
+**ArXiv ID**: 2602.21597v1  
 
 #### Abstract
-As LLM deployments scale over more hardware, the probability of a single failure in a system increases significantly, and cloud operators must consider robust countermeasures to handle these inevitable failures. A common recovery approach is to simply restart the LLM serving instance; however, this ...
+Neural Graph Databases (NGDBs) facilitate complex logical reasoning over incomplete knowledge structures, yet their training efficiency and expressivity are constrained by rigid query-level batching and structure-exclusive embeddings. We present NGDB-Zoo, a unified framework that resolves these bott...
 
 ---
 
-### 5. [Deep unfolding of MCMC kernels: scalable, modular & explainable GANs for high-dimensional posterior sampling](https://arxiv.org/abs/2602.20758)
+### 6. [Energy Efficient Federated Learning with Hyperdimensional Computing over Wireless Communication Networks](https://arxiv.org/abs/2602.21949)
 
-**Authors**: Jonathan Spence, Tob\'ias I. Liaudat, Konstantinos Zygalakis, Marcelo Pereyra  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 10.0  
-**Type**: new  
-**ArXiv ID**: 2602.20758v1  
-
-#### Abstract
-Markov chain Monte Carlo (MCMC) methods are fundamental to Bayesian computation, but can be computationally intensive, especially in high-dimensional settings. Push-forward generative models, such as generative adversarial networks (GANs), variational auto-encoders and normalising flows offer a comp...
-
----
-
-### 6. [PyVision-RL: Forging Open Agentic Vision Models via RL](https://arxiv.org/abs/2602.20739)
-
-**Authors**: Shitian Zhao, Shaoheng Lin, Ming Li, Haoquan Zhang, Wenshuo Peng, Kaipeng Zhang, Chen Wei  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
+**Authors**: Yahao Ding, Yinchao Yang, Jiaxiang Wang, Zhaohui Yang, Dusit Niyato, Zhu Han, Mohammad Shikh-Bahaei  
+**Category**: cs.DC  
+**Published**: 2026-02-26  
 **Score**: 9.5  
 **Type**: new  
-**ArXiv ID**: 2602.20739v1  
+**ArXiv ID**: 2602.21949v1  
 
 #### Abstract
-Reinforcement learning for agentic multimodal models often suffers from interaction collapse, where models learn to reduce tool usage and multi-turn reasoning, limiting the benefits of agentic behavior. We introduce PyVision-RL, a reinforcement learning framework for open-weight multimodal models th...
+In this paper, we investigate a problem of minimizing total energy consumption for secure federated learning (FL) over wireless edge networks. To address the high computational cost and privacy challenges in conventional FL with neural networks (NN) for resource-constrained users, we propose a novel...
 
 ---
 
-### 7. [Fuz-RL: A Fuzzy-Guided Robust Framework for Safe Reinforcement Learning under Uncertainty](https://arxiv.org/abs/2602.20729)
+### 7. [SigmaQuant: Hardware-Aware Heterogeneous Quantization Method for Edge DNN Inference](https://arxiv.org/abs/2602.22136)
 
-**Authors**: Xu Wan, Chao Yang, Cheng Yang, Jie Song, Mingyang Sun  
+**Authors**: Qunyou Liu, Pengbo Yu, Marina Zapater, David Atienza  
 **Category**: cs.LG  
-**Published**: 2026-02-25  
+**Published**: 2026-02-26  
 **Score**: 9.5  
 **Type**: new  
-**ArXiv ID**: 2602.20729v1  
+**ArXiv ID**: 2602.22136v1  
 
 #### Abstract
-Safe Reinforcement Learning (RL) is crucial for achieving high performance while ensuring safety in real-world applications. However, the complex interplay of multiple uncertainty sources in real environments poses significant challenges for interpretable risk assessment and robust decision-making. ...
+Deep neural networks (DNNs) are essential for performing advanced tasks on edge or mobile devices, yet their deployment is often hindered by severe resource constraints, including limited memory, energy, and computational power. While uniform quantization provides a straightforward approach to compr...
 
 ---
 
-### 8. [Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning](https://arxiv.org/abs/2602.20722)
+### 8. [RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning](https://arxiv.org/abs/2602.21628)
 
-**Authors**: Xu Wan, Yansheng Wang, Wenqi Huang, Mingyang Sun  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 9.0  
-**Type**: new  
-**ArXiv ID**: 2602.20722v1  
-
-#### Abstract
-Traditional on-policy Reinforcement Learning with Verifiable Rewards (RLVR) frameworks suffer from experience waste and reward homogeneity, which directly hinders learning efficiency on difficult samples during large language models post-training. In this paper, we introduce Batch Adaptation Policy ...
-
----
-
-### 9. [Overton Pluralistic Reinforcement Learning for Large Language Models](https://arxiv.org/abs/2602.20759)
-
-**Authors**: Yu Fu, Seongho Son, Ilija Bogunovic  
+**Authors**: Yukun Chen, Jiaming Li, Longze Chen, Ze Gong, Jingpeng Li, Zhen Qin, Hengyu Chang, Ancheng Xu, Zhihao Yang, Hamid Alinejad-Rokny, Qiang Qu, Bo Zheng, Min Yang  
 **Category**: cs.CL  
-**Published**: 2026-02-25  
+**Published**: 2026-02-26  
 **Score**: 9.0  
 **Type**: new  
-**ArXiv ID**: 2602.20759v1  
+**ArXiv ID**: 2602.21628v1  
 
 #### Abstract
-Existing alignment paradigms remain limited in capturing the pluralistic nature of human values. Overton Pluralism addresses this gap by generating responses with diverse perspectives from a single query. This paper introduces OP-GRPO (Overton Pluralistic Group Relative Policy Optimization), a reinf...
+Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a prevailing paradigm for enhancing reasoning in Multimodal Large Language Models (MLLMs). However, relying solely on outcome supervision risks reward hacking, where models learn spurious reasoning patterns to satisfy final answer ...
 
 ---
 
-### 10. [WeirNet: A Large-Scale 3D CFD Benchmark for Geometric Surrogate Modeling of Piano Key Weirs](https://arxiv.org/abs/2602.20714)
+### 9. [Training-free Composition of Pre-trained GFlowNets for Multi-Objective Generation](https://arxiv.org/abs/2602.21565)
 
-**Authors**: Lisa L\"uddecke, Michael Hohmann, Sebastian Eilermann, Jan Tillmann-Mumm, Pezhman Pourabdollah, Mario Oertel, Oliver Niggemann  
+**Authors**: Seokwon Yoon, Youngbin Choi, Seunghyuk Cho, Seungbeom Lee, MoonJeong Park, Dongwoo Kim  
 **Category**: cs.LG  
-**Published**: 2026-02-25  
+**Published**: 2026-02-26  
 **Score**: 9.0  
 **Type**: new  
-**ArXiv ID**: 2602.20714v1  
+**ArXiv ID**: 2602.21565v1  
 
 #### Abstract
-Reliable prediction of hydraulic performance is challenging for Piano Key Weir (PKW) design because discharge capacity depends on three-dimensional geometry and operating conditions. Surrogate models can accelerate hydraulic-structure design, but progress is limited by scarce large, well-documented ...
+Generative Flow Networks (GFlowNets) learn to sample diverse candidates in proportion to a reward function, making them well-suited for scientific discovery, where exploring multiple promising solutions is crucial. Further extending GFlowNets to multi-objective settings has attracted growing interes...
 
 ---
 
-### 11. [GauS: Differentiable Scheduling Optimization via Gaussian Reparameterization](https://arxiv.org/abs/2602.20427)
+### 10. [Structured Prompt Language: Declarative Context Management for LLMs](https://arxiv.org/abs/2602.21257)
 
-**Authors**: Yaohui Cai, Vesal Bakhtazad, Cunxi Yu, Zhiru Zhang  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
+**Authors**: Wen G. Gong  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
 **Score**: 8.5  
 **Type**: new  
-**ArXiv ID**: 2602.20427v1  
+**ArXiv ID**: 2602.21257v1  
 
 #### Abstract
-Efficient operator scheduling is a fundamental challenge in software compilation and hardware synthesis. While recent differentiable approaches have sought to replace traditional ones like exact solvers or heuristics with gradient-based search, they typically rely on categorical distributions that f...
+We present SPL (Structured Prompt Language), a declarative SQL-inspired language that treats large language models as generative knowledge bases and their context windows as constrained resources. SPL provides explicit WITH BUDGET/LIMIT token management, an automatic query optimizer, EXPLAIN transpa...
 
 ---
 
-### 12. [Physics-based phenomenological characterization of cross-modal bias in multimodal models](https://arxiv.org/abs/2602.20624)
+### 11. [Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data](https://arxiv.org/abs/2602.21320)
 
-**Authors**: Hyeongmo Kim, Sohyun Kang, Yerin Choi, Seungyeon Ji, Junhyuk Woo, Hyunsuk Chung, Soyeon Caren Han, Kyungreem Han  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
+**Authors**: Emre Can Acikgoz, Cheng Qian, Jonas H\"ubotter, Heng Ji, Dilek Hakkani-T\"ur, Gokhan Tur  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 8.5  
+**Type**: new  
+**ArXiv ID**: 2602.21320v1  
+
+#### Abstract
+Large language models (LLMs) are becoming the foundation for autonomous agents that can use tools to solve complex tasks. Reinforcement learning (RL) has emerged as a common approach for injecting such agentic capabilities, but typically under tightly controlled training setups. It often depends on ...
+
+---
+
+### 12. [Geometric Priors for Generalizable World Models via Vector Symbolic Architecture](https://arxiv.org/abs/2602.21467)
+
+**Authors**: William Youngwoo Chung, Calvin Yeung, Hansen Jin Lillemark, Zhuowen Zou, Xiangjian Liu, Mohsen Imani  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 8.5  
+**Type**: new  
+**ArXiv ID**: 2602.21467v1  
+
+#### Abstract
+A key challenge in artificial intelligence and neuroscience is understanding how neural systems learn representations that capture the underlying dynamics of the world. Most world models represent the transition function with unstructured neural networks, limiting interpretability, sample efficiency...
+
+---
+
+### 13. [Mamba Meets Scheduling: Learning to Solve Flexible Job Shop Scheduling with Efficient Sequence Modeling](https://arxiv.org/abs/2602.21546)
+
+**Authors**: Zhi Cao, Cong Zhang, Yaoxin Wu, Yaqing Hou, Hongwei Ge  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 8.5  
+**Type**: new  
+**ArXiv ID**: 2602.21546v1  
+
+#### Abstract
+The Flexible Job Shop Problem (FJSP) is a well-studied combinatorial optimization problem with extensive applications for manufacturing and production scheduling. It involves assigning jobs to various machines to optimize criteria, such as minimizing total completion time. Current learning-based met...
+
+---
+
+### 14. [Explore-on-Graph: Incentivizing Autonomous Exploration of Large Language Models on Knowledge Graphs with Path-refined Reward Modeling](https://arxiv.org/abs/2602.21728)
+
+**Authors**: Shiqi Yan, Yubo Chen, Ruiqi Zhou, Zhengxi Yao, Shuai Chen, Tianyi Zhang, Shijie Zhang, Wei Qiang Zhang, Yongfeng Huang, Haixin Duan, Yunqi Zhang  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
 **Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2602.20624v1  
+**ArXiv ID**: 2602.21728v1  
 
 #### Abstract
-The term 'algorithmic fairness' is used to evaluate whether AI models operate fairly in both comparative (where fairness is understood as formal equality, such as "treat like cases as like") and non-comparative (where unfairness arises from the model's inaccuracy, arbitrariness, or inscrutability) c...
+The reasoning process of Large Language Models (LLMs) is often plagued by hallucinations and missing facts in question-answering tasks. A promising solution is to ground LLMs' answers in verifiable knowledge sources, such as Knowledge Graphs (KGs). Prevailing KG-enhanced methods typically constraine...
 
 ---
 
-### 13. [Exploring the Impact of Parameter Update Magnitude on Forgetting and Generalization of Continual Learning](https://arxiv.org/abs/2602.20796)
+### 15. [PASTA: A Modular Program Analysis Tool Framework for Accelerators](https://arxiv.org/abs/2602.22103)
 
-**Authors**: JinLi He, Liang Bai, Xian Yang  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
+**Authors**: Mao Lin, Hyeran Jeon, Keren Zhou  
+**Category**: cs.DC  
+**Published**: 2026-02-26  
 **Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2602.20796v1  
+**ArXiv ID**: 2602.22103v1  
 
 #### Abstract
-The magnitude of parameter updates are considered a key factor in continual learning. However, most existing studies focus on designing diverse update strategies, while a theoretical understanding of the underlying mechanisms remains limited. Therefore, we characterize model's forgetting from the pe...
+The increasing complexity and diversity of hardware accelerators in modern computing systems demand flexible, low-overhead program analysis tools. We present PASTA, a low-overhead and modular Program AnalysiS Tool Framework for Accelerators. PASTA abstracts over low-level profiling APIs and diverse ...
 
 ---
 
-### 14. [From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production](https://arxiv.org/abs/2602.20558)
+### 16. [Interleaved Head Attention](https://arxiv.org/abs/2602.21371)
 
-**Authors**: Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.20558v1  
-
-#### Abstract
-Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language inputs. Existing methods rely on rigid templates that simply concatenat...
-
----
-
-### 15. [CHESS: Context-aware Hierarchical Efficient Semantic Selection for Long-Context LLM Inference](https://arxiv.org/abs/2602.20732)
-
-**Authors**: Chao Fei, Guozhong Li, Chenxi Liu, Panos Kalnis  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.20732v1  
-
-#### Abstract
-Long-context LLMs demand accurate inference at low latency, yet decoding becomes primarily constrained by KV cache as context grows. Prior pruning methods are largely context-agnostic: their token selection ignores step-wise relevance and local semantics, which undermines quality. Moreover, their ir...
-
----
-
-### 16. [HELP: HyperNode Expansion and Logical Path-Guided Evidence Localization for Accurate and Efficient GraphRAG](https://arxiv.org/abs/2602.20926)
-
-**Authors**: Yuqi Huang, Ning Liao, Kai Yang, Anning Hu, Shengchao Hu, Xiaoxing Wang, Junchi Yan  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.20926v1  
-
-#### Abstract
-Large Language Models (LLMs) often struggle with inherent knowledge boundaries and hallucinations, limiting their reliability in knowledge-intensive tasks. While Retrieval-Augmented Generation (RAG) mitigates these issues, it frequently overlooks structural interdependencies essential for multi-hop ...
-
----
-
-### 17. [LogicGraph : Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification](https://arxiv.org/abs/2602.21044)
-
-**Authors**: Yanrui Wu, Lingling Zhang, Xinyu Zhang, Jiayu Chang, Pengyu Li, Xu Jiang, Jingtao Hu, Jun Liu  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 7.5  
-**Type**: new  
-**ArXiv ID**: 2602.21044v1  
-
-#### Abstract
-Evaluations of large language models (LLMs) primarily emphasize convergent logical reasoning, where success is defined by producing a single correct proof. However, many real-world reasoning problems admit multiple valid derivations, requiring models to explore diverse logical paths rather than comm...
-
----
-
-### 18. [Nonparametric Teaching of Attention Learners](https://arxiv.org/abs/2602.20461)
-
-**Authors**: Chen Zhang, Jianghui Wang, Bingyang Cheng, Zhongtao Chen, Wendong XU, Cong Wang, Marco Canini, Francesco Orabona, Yik Chung WU, Ngai Wong  
+**Authors**: Sai Surya Duvvuri, Chanakya Ekbote, Rachit Bansal, Rishabh Tiwari, Devvrit Khatri, David Brandfonbrener, Paul Liang, Inderjit Dhillon, Manzil Zaheer  
 **Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 7.5  
+**Published**: 2026-02-26  
+**Score**: 8.0  
 **Type**: new  
-**ArXiv ID**: 2602.20461v1  
+**ArXiv ID**: 2602.21371v1  
 
 #### Abstract
-Attention learners, neural networks built on the attention mechanism, e.g., transformers, excel at learning the implicit relationships that relate sequences to their corresponding properties, e.g., mapping a given sequence of tokens to the probability of the next token. However, the learning process...
+Multi-Head Attention (MHA) is the core computational primitive underlying modern Large Language Models (LLMs). However, MHA suffers from a fundamental linear scaling limitation: $H$ attention heads produce exactly $H$ independent attention matrices, with no communication between heads during attenti...
 
 ---
 
-### 19. [Balancing Multiple Objectives in Urban Traffic Control with Reinforcement Learning from AI Feedback](https://arxiv.org/abs/2602.20728)
+### 17. [Learning Unknown Interdependencies for Decentralized Root Cause Analysis in Nonlinear Dynamical Systems](https://arxiv.org/abs/2602.21928)
 
-**Authors**: Chenyang Zhao, Vinny Cahill, Ivana Dusparic  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
+**Authors**: Ayush Mohanty, Paritosh Ramanan, Nagi Gebraeel  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 8.0  
+**Type**: new  
+**ArXiv ID**: 2602.21928v1  
+
+#### Abstract
+Root cause analysis (RCA) in networked industrial systems, such as supply chains and power networks, is notoriously difficult due to unknown and dynamically evolving interdependencies among geographically distributed clients. These clients represent heterogeneous physical processes and industrial as...
+
+---
+
+### 18. [Multi-dimensional Assessment and Explainable Feedback for Counselor Responses to Client Resistance in Text-based Counseling with LLMs](https://arxiv.org/abs/2602.21638)
+
+**Authors**: Anqi Li, Ruihan Wang, Zhaoming Chen, Yuqian Chen, Yu Lu, Yi Zhu, Yuan Xie, Zhenzhong Lan  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
+**Score**: 7.5  
+**Type**: new  
+**ArXiv ID**: 2602.21638v1  
+
+#### Abstract
+Effectively addressing client resistance is a sophisticated clinical skill in psychological counseling, yet practitioners often lack timely and scalable supervisory feedback to refine their approaches. Although current NLP research has examined overall counseling quality and general therapeutic skil...
+
+---
+
+### 19. [SymTorch: A Framework for Symbolic Distillation of Deep Neural Networks](https://arxiv.org/abs/2602.21307)
+
+**Authors**: Elizabeth S. Z. Tan, Adil Soubki, Miles Cranmer  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 7.5  
+**Type**: new  
+**ArXiv ID**: 2602.21307v1  
+
+#### Abstract
+Symbolic distillation replaces neural networks, or components thereof, with interpretable, closed-form mathematical expressions. This approach has shown promise in discovering physical laws and mathematical relationships directly from trained deep learning models, yet adoption remains limited due to...
+
+---
+
+### 20. [MERRY: Semantically Decoupled Evaluation of Multimodal Emotional and Role Consistencies of Role-Playing Agents](https://arxiv.org/abs/2602.21941)
+
+**Authors**: Zhenyu Wang, Xiaofen Xing, Yirong Chen, Xiangmin Xu  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
 **Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2602.20728v1  
+**ArXiv ID**: 2602.21941v1  
 
 #### Abstract
-Reward design has been one of the central challenges for real world reinforcement learning (RL) deployment, especially in settings with multiple objectives. Preference-based RL offers an appealing alternative by learning from human preferences over pairs of behavioural outcomes. More recently, RL fr...
+Multimodal Role-Playing Agents (MRPAs) are attracting increasing attention due to their ability to deliver more immersive multimodal emotional interactions. However, existing studies still rely on pure textual benchmarks to evaluate the text responses of MRPAs, while delegating the assessment of the...
 
 ---
 
-### 20. [PromptCD: Test-Time Behavior Enhancement via Polarity-Prompt Contrastive Decoding](https://arxiv.org/abs/2602.20696)
+### 21. [DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference](https://arxiv.org/abs/2602.21548)
 
-**Authors**: Baolong Bi, Yuyao Ge, Shenghua Liu, Yuchen He, Siqian Tong, Lizhe Chen, Lingrui Mei, Zehao Li, Yiwei Wang, Yujun Cai, Ming-Hsuan Yang, Xueqi Cheng  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 6.5  
+**Authors**: Yongtong Wu, Shaoyuan Chen, Yinmin Zhong, Rilin Huang, Yixuan Tan, Wentao Zhang, Liyue Zhang, Shangyan Zhou, Yuxuan Liu, Shunfeng Zhou, Mingxing Zhang, Xin Jin, Panpan Huang  
+**Category**: cs.DC  
+**Published**: 2026-02-26  
+**Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2602.20696v1  
+**ArXiv ID**: 2602.21548v1  
 
 #### Abstract
-Reliable AI systems require large language models (LLMs) to exhibit behaviors aligned with human preferences and values. However, most existing alignment approaches operate at training time and rely on additional high-quality data, incurring significant computational and annotation costs. While rece...
+The performance of multi-turn, agentic LLM inference is increasingly dominated by KV-Cache storage I/O rather than computation. In prevalent disaggregated architectures, loading the massive KV-Cache from external storage creates a fundamental imbalance: storage NICs on prefill engines become bandwid...
 
 ---
 
-### 21. [ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction](https://arxiv.org/abs/2602.20708)
+### 22. [LLMTailor: A Layer-wise Tailoring Tool for Efficient Checkpointing of Large Language Models](https://arxiv.org/abs/2602.22158)
 
-**Authors**: Che Wang, Fuyao Zhang, Jiaming Zhang, Ziqi Zhang, Yinghui Wang, Longtao Huang, Jianbo Gao, Zhong Chen, Wei Yang Bryan Lim  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 6.5  
+**Authors**: Minqiu Sun, Xin Huang, Luanzheng Guo, Nathan R. Tallent, Kento Sato, Dong Dai  
+**Category**: cs.DC  
+**Published**: 2026-02-26  
+**Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2602.20708v1  
+**ArXiv ID**: 2602.22158v1  
 
 #### Abstract
-Large Language Model (LLM) agents are susceptible to Indirect Prompt Injection (IPI) attacks, where malicious instructions in retrieved content hijack the agent's execution. Existing defenses typically rely on strict filtering or refusal mechanisms, which suffer from a critical limitation: over-refu...
+Checkpointing is essential for fault tolerance in training large language models (LLMs). However, existing methods, regardless of their I/O strategies, periodically store the entire model and optimizer states, incurring substantial storage overhead and resource contention. Recent studies reveal that...
 
 ---
 
-### 22. [NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning](https://arxiv.org/abs/2602.21172)
+### 23. [AgentLTV: An Agent-Based Unified Search-and-Evolution Framework for Automated Lifetime Value Prediction](https://arxiv.org/abs/2602.21634)
 
-**Authors**: Ishaan Rawal, Shubh Gupta, Yihan Hu, Wei Zhan  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 6.5  
+**Authors**: Chaowei Wu, Huazhu Chen, Congde Yuan, Qirui Yang, Guoqing Song, Yue Gao, Li Luo, Frank Youhua Chen, Mengzhuo Guo  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 7.0  
 **Type**: new  
-**ArXiv ID**: 2602.21172v1  
+**ArXiv ID**: 2602.21634v1  
 
 #### Abstract
-Vision-Language-Action (VLA) models are advancing autonomous driving by replacing modular pipelines with unified end-to-end architectures. However, current VLAs face two expensive requirements: (1) massive dataset collection, and (2) dense reasoning annotations. In this work, we address both challen...
+Lifetime Value (LTV) prediction is critical in advertising, recommender systems, and e-commerce. In practice, LTV data patterns vary across decision scenarios. As a result, practitioners often build complex, scenario-specific pipelines and iterate over feature processing, objective design, and tunin...
 
 ---
 
-### 23. [ID-LoRA: Efficient Low-Rank Adaptation Inspired by Matrix Interpolative Decomposition](https://arxiv.org/abs/2602.20727)
+### 24. [VecGlypher: Unified Vector Glyph Generation with Language Models](https://arxiv.org/abs/2602.21461)
 
-**Authors**: Xindian Ma, Rundong Kong, Peng Zhang, Ruoxiang Huang, Yongyu Jiang  
+**Authors**: Xiaoke Huang, Bhavul Gauri, Kam Woh Ng, Tony Ng, Mengmeng Xu, Zhiheng Liu, Weiming Ren, Zhaochong An, Zijian Zhou, Haonan Qiu, Yuyin Zhou, Sen He, Ziheng Wang, Tao Xiang, Xiao Han  
 **Category**: cs.CL  
-**Published**: 2026-02-25  
+**Published**: 2026-02-26  
 **Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.20727v1  
+**ArXiv ID**: 2602.21461v1  
 
 #### Abstract
-LoRA has become a universal Parameter-Efficient Fine-Tuning (PEFT) technique that equips Large Language Models (LLMs) to adapt quickly to new tasks. However, when these models are scaled up, even the latest LoRA variants still introduce considerable overhead in trainable parameters. Conversely, aggr...
+Vector glyphs are the atomic units of digital typography, yet most learning-based pipelines still depend on carefully curated exemplar sheets and raster-to-vector postprocessing, which limits accessibility and editability. We introduce VecGlypher, a single multimodal language model that generates hi...
 
 ---
 
-### 24. [Stability and Generalization of Push-Sum Based Decentralized Optimization over Directed Graphs](https://arxiv.org/abs/2602.20567)
+### 25. [Improving Implicit Discourse Relation Recognition with Natural Language Explanations from LLMs](https://arxiv.org/abs/2602.21763)
 
-**Authors**: Yifei Liang, Yan Sun, Xiaochun Cao, Li Shen  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 6.5  
-**Type**: new  
-**ArXiv ID**: 2602.20567v1  
-
-#### Abstract
-Push-Sum-based decentralized learning enables optimization over directed communication networks, where information exchange may be asymmetric. While convergence properties of such methods are well understood, their finite-iteration stability and generalization behavior remain unclear due to structur...
-
----
-
-### 25. [PIME: Prototype-based Interpretable MCTS-Enhanced Brain Network Analysis for Disorder Diagnosis](https://arxiv.org/abs/2602.21046)
-
-**Authors**: Kunyu Zhang, Yanwu Yang, Jing Zhang, Xiangjie Shi, Shujian Yu  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 6.5  
-**Type**: new  
-**ArXiv ID**: 2602.21046v1  
-
-#### Abstract
-Recent deep learning methods for fMRI-based diagnosis have achieved promising accuracy by modeling functional connectivity networks. However, standard approaches often struggle with noisy interactions, and conventional post-hoc attribution methods may lack reliability, potentially highlighting datas...
-
----
-
-### 26. [Tool Building as a Path to "Superintelligence"](https://arxiv.org/abs/2602.21061)
-
-**Authors**: David Koplow, Tomer Galanti, Tomaso Poggio  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 6.0  
-**Type**: new  
-**ArXiv ID**: 2602.21061v1  
-
-#### Abstract
-The Diligent Learner framework suggests LLMs can achieve superintelligence via test-time search, provided a sufficient step-success probability $\gamma$. In this work, we design a benchmark to measure $\gamma$ on logical out-of-distribution inference. We construct a class of tasks involving GF(2) ci...
-
----
-
-### 27. [Motivation is Something You Need](https://arxiv.org/abs/2602.21064)
-
-**Authors**: Mehdi Acheli, Walid Gaaloul  
-**Category**: cs.AI  
-**Published**: 2026-02-25  
-**Score**: 6.0  
-**Type**: new  
-**ArXiv ID**: 2602.21064v1  
-
-#### Abstract
-This work introduces a novel training paradigm that draws from affective neuroscience. Inspired by the interplay of emotions and cognition in the human brain and more specifically the SEEKING motivational state, we design a dual-model framework where a smaller base model is trained continuously, whi...
-
----
-
-### 28. [FinAnchor: Aligned Multi-Model Representations for Financial Prediction](https://arxiv.org/abs/2602.20859)
-
-**Authors**: Zirui He, Huopu Zhang, Yanguang Liu, Sirui Wu, Mengnan Du  
+**Authors**: Heng Wang, Changxing Wu  
 **Category**: cs.CL  
-**Published**: 2026-02-25  
-**Score**: 6.0  
+**Published**: 2026-02-26  
+**Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.20859v1  
+**ArXiv ID**: 2602.21763v1  
 
 #### Abstract
-Financial prediction from long documents involves significant challenges, as actionable signals are often sparse and obscured by noise, and the optimal LLM for generating embeddings varies across tasks and time periods. In this paper, we propose FinAnchor(Financial Anchored Representations), a light...
+Implicit Discourse Relation Recognition (IDRR) remains a challenging task due to the requirement for deep semantic understanding in the absence of explicit discourse markers. A further limitation is that existing methods only predict relations without providing any supporting explanations. Recent ad...
 
 ---
 
-### 29. [Tensor Network Generator-Enhanced Optimization for Traveling Salesman Problem](https://arxiv.org/abs/2602.20175)
+### 26. [D-COT: Disciplined Chain-of-Thought Learning for Efficient Reasoning in Small Language Models](https://arxiv.org/abs/2602.21786)
 
-**Authors**: Ryo Sakai, Chen-Yu Liu  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 6.0  
+**Authors**: Shunsuke Ubukata  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
+**Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.20175v1  
+**ArXiv ID**: 2602.21786v1  
 
 #### Abstract
-We present an application of the tensor network generator-enhanced optimization (TN-GEO) framework to address the traveling salesman problem (TSP), a fundamental combinatorial optimization challenge. Our approach employs a tensor network Born machine based on automatically differentiable matrix prod...
+Chain-of-Thought (CoT) distillation from Large Language Models (LLMs) often induces "overthinking" in Small Language Models (SLMs), leading to performance degradation and excessive token consumption. In this study, we propose Disciplined Chain-of-Thought (D-CoT), a novel framework that enforces a st...
 
 ---
 
-### 30. [CITED: A Decision Boundary-Aware Signature for GNNs Towards Model Extraction Defense](https://arxiv.org/abs/2602.20418)
+### 27. [ExpLang: Improved Exploration and Exploitation in LLM Reasoning with On-Policy Thinking Language Selection](https://arxiv.org/abs/2602.21887)
 
-**Authors**: Bolin Shen, Md Shamim Seraj, Zhan Cheng, Shayok Chakraborty, Yushun Dong  
-**Category**: cs.LG  
-**Published**: 2026-02-25  
-**Score**: 6.0  
+**Authors**: Changjiang Gao, Zixian Huang, Kaichen Yang, Jiajun Chen, Jixing Li, Shujian Huang  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
+**Score**: 6.5  
 **Type**: new  
-**ArXiv ID**: 2602.20418v1  
+**ArXiv ID**: 2602.21887v1  
 
 #### Abstract
-Graph neural networks (GNNs) have demonstrated superior performance in various applications, such as recommendation systems and financial risk management. However, deploying large-scale GNN models locally is particularly challenging for users, as it requires significant computational resources and e...
+Current large reasoning models (LRMs) have shown strong ability on challenging tasks after reinforcement learning (RL) based post-training. However, previous work mainly focuses on English reasoning in expectation of the strongest performance, despite the demonstrated potential advantage of multilin...
+
+---
+
+### 28. [RADAR: Reasoning as Discrimination with Aligned Representations for LLM-based Knowledge Graph Reasoning](https://arxiv.org/abs/2602.21951)
+
+**Authors**: Bo Xue, Yuan Jin, Luoyi Fu, Jiaxin Ding, Xinbing Wang  
+**Category**: cs.CL  
+**Published**: 2026-02-26  
+**Score**: 6.5  
+**Type**: new  
+**ArXiv ID**: 2602.21951v1  
+
+#### Abstract
+Knowledge graph reasoning (KGR) infers missing facts, with recent advances increasingly harnessing the semantic priors and reasoning abilities of Large Language Models (LLMs). However, prevailing generative paradigms are prone to memorizing surface-level co-occurrences rather than learning genuine r...
+
+---
+
+### 29. [DocDjinn: Controllable Synthetic Document Generation with VLMs and Handwriting Diffusion](https://arxiv.org/abs/2602.21824)
+
+**Authors**: Marcel Lamott, Saifullah Saifullah, Nauman Riaz, Yves-Noel Weweler, Tobias Alt-Veit, Ahmad Sarmad Ali, Muhammad Armaghan Shakir, Adrian Kalwa, Momina Moetesum, Andreas Dengel, Sheraz Ahmed, Faisal Shafait, Ulrich Schwanecke, Adrian Ulges  
+**Category**: cs.LG  
+**Published**: 2026-02-26  
+**Score**: 6.5  
+**Type**: new  
+**ArXiv ID**: 2602.21824v1  
+
+#### Abstract
+Effective document intelligence models rely on large amounts of annotated training data. However, procuring sufficient and high-quality data poses significant challenges due to the labor-intensive and costly nature of data acquisition. Additionally, leveraging language models to annotate real docume...
+
+---
+
+### 30. [Distill and Align Decomposition for Enhanced Claim Verification](https://arxiv.org/abs/2602.21857)
+
+**Authors**: Jabez Magomere, Elena Kochkina, Samuel Mensah, Simerjot Kaur, Fernando Acero, Arturo Oncevay, Charese H. Smiley, Xiaomo Liu, Manuela Veloso  
+**Category**: cs.AI  
+**Published**: 2026-02-26  
+**Score**: 6.0  
+**Type**: new  
+**ArXiv ID**: 2602.21857v1  
+
+#### Abstract
+Complex claim verification requires decomposing sentences into verifiable subclaims, yet existing methods struggle to align decomposition quality with verification performance. We propose a reinforcement learning (RL) approach that jointly optimizes decomposition quality and verifier alignment using...
 
 ---
 
